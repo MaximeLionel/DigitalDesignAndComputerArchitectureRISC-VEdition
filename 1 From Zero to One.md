@@ -163,7 +163,7 @@ $4_{10} + 5_{10} = 0100_2 + 0101_2 = 1001_2 = −7_{10}$
 	![[Pasted image 20241225173557.png|600]]
 * Number line and 4-bit binary encodings:
 	![[Pasted image 20241225173641.png|1000]]
-
+	* For sign/Magnitude, 0 is represented by both 0000 and 1000.
 
 
 
