@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "3eb1cd6ce7f914fa",
@@ -94,7 +95,7 @@
               "type": "backlink",
               "state": {
                 "file": "1 From Zero to One.md",
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -145,12 +146,12 @@
               "title": "Outline of 1 From Zero to One"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -163,7 +164,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5446ab0046e03779",
+  "active": "835352092123a3ef",
   "lastOpenFiles": [
     "1 From Zero to One.md"
   ]
