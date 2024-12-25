@@ -18,4 +18,6 @@
 	* By abstracting to this device level, we can ignore the individual electrons.
 * Analog circuits (模拟电路):
 	* devices  are assembled to create components such as amplifiers. 
-	* Analog circuits input and output a continuous range of voltages
+	* Analog circuits input and output a continuous range of voltages.
+* Digital circuits - such as logic gates, restrict the voltages to discrete ranges, which we will use to 
+indicate 0 and 1.
