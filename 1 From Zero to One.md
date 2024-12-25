@@ -103,6 +103,25 @@ Solution:
 $2_{10}=0010_2$
 $-2_{10}=1101_2+1_2=1110_2$
 
+#### Example 1.11 VALUE OF NEGATIVE TWO’S COMPLEMENT NUMBERS
+Find the decimal value of the 4-bit two’s complement number 0x9 (i.e., 10012).
 
+Solution:
+To reverse the sign bit of $1001_2$:
+* reversing all bits: $0110_2$
+* adding 1 to lsb: $0111_2$
+* transit to decimal: $0111_2 = 7_{10}$
+Therefore, the decimal value of 0x9 is $-7_{10}$
+
+* when adding N-bit numbers, the carry out of the Nth bit (i.e., the 
+N + 1th result bit) is discarded.
+
+#### Example 1.12 ADDING TWO’S COMPLEMENT NUMBERS
+Compute (a) $−2_{10} + 1_{10}$ and (b) $−7_{10} + 7_{10}$ using two’s complement numbers.
+
+Solution:
+(a) $−2_{10} + 1_{10} = 1110_2 + 0001_2 = 11112 = −110$
+(b) −710 + 710 = 10012 + 
+01112 = 100002. The fifth bit is discarded, leaving the correct 4-bit result 00002.
 
 
