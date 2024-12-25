@@ -92,11 +92,16 @@ $-5_{10}=1101_2$
 
 ### Two’s Complement Numbers
 * Two’s complement numbers are identical to unsigned binary numbers except that the most significant bit position has a weight of $−2^{N−1}$ and $2^{N−1}$.
-* The sign of a two’s complement number is reversed by:
+* Reversing the sign method:
 	* inverting the bits in the number
-	* adding 1 to the least significant bit position. This process is called the 
-reversing the sign method.
+	* adding 1 to the least significant bit position. 
 
+#### Example 1.10 TWO’S COMPLEMENT REPRESENTATION OF A NEGATIVE NUMBER
+Find the representation of $−2_{10}$ as a 4-bit two’s complement number.
+
+Solution:
+$2_{10}=0010_2$
+$-2_{10}=1101_2+1_2=1110_2$
 
 
 
