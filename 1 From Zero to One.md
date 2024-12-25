@@ -50,8 +50,16 @@
 ## 1.4.4 Bytes, Nibbles, and All That Jazz
 * A group of four bits, or half a byte, is called a **nibble**.
 * Microprocessors handle data in chunks called **words**.
-
-
+	* The size of a word depends on the architecture of the microprocessor.
+	* In 2021, most computers had 64-bit processors, indicating that they operate on 64-bit words.
+* Least and most significant bits and bytes:
+	![[Pasted image 20241225154814.png|600]]
+	* least significant bit (lsb) / most significant bit (msb) / least significant byte (LSB) / most significant byte (MSB).
+* Some logics of powers of 10 and powers of 2:
+	* the term **kilo** indicates $2^{10} \approx 10^3$.
+	* the term **mega** indicates $2^{20} \approx 10^6$.
+	* the term giga indicates $2^{30} ≈ 10^9$.
+.
 
 
 
