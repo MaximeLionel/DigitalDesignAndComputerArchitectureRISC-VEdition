@@ -49,7 +49,7 @@
 
 ## 1.4.4 Bytes, Nibbles, and All That Jazz
 * A group of four bits, or half a byte, is called a **nibble**.
-
+* Microprocessors handle data in chunks called **words**.
 
 
 
