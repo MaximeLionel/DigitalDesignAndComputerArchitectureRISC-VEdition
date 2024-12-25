@@ -75,13 +75,27 @@ So, $2^{24} \approx 16 million$.
 	![[Pasted image 20241225161143.png|400]]
 
 ## 1.4.6 Signed Binary Numbers
+* 2 most widely employed methods to represent signed binary numbers are called **sign/magnitude** and **two’s complement**.
 ### Sign/Magnitude Numbers
 * Sign/magnitude numbers (符号数/幅值数) are intuitively appealing because they match our custom of writing negative numbers with a minus sign followed by the magnitude.
 * An N-bit sign/magnitude number uses the most significant bit as the sign and the remaining N − 1 bits as the magnitude (absolute value).
 * A sign bit of 0 indicates positive and a sign bit of 1 indicates negative.
+* An N-bit sign/magnitude number spans the range $[−2^{N−1} + 1, 2^{N−1} − 1]$.
+* Sign/magnitude numbers are slightly odd in that both +0 and −0 exist. Both indicate zero.
 
+#### Example 1.9 SIGN/MAGNITUDE NUMBERS
+Write 5 and −5 as 4-bit sign/magnitude numbers.
 
+Solution:
+$5_{10}=0101_2$
+$-5_{10}=1101_2$
 
+### Two’s Complement Numbers
+* Two’s complement numbers are identical to unsigned binary numbers except that the most significant bit position has a weight of $−2^{N−1}$ and $2^{N−1}$.
+* The sign of a two’s complement number is reversed by:
+	* inverting the bits in the number
+	* adding 1 to the least significant bit position. This process is called the 
+reversing the sign method.
 
 
 
