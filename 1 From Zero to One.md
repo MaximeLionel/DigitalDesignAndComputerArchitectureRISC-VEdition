@@ -70,7 +70,15 @@ $2^{24} = 2^{20} × 2^4$
 $2^{20} \approx 1 million$ and $2^4 = 16$ 
 So, $2^{24} \approx 16 million$.
 
+## 1.4.5 Binary Addition
+* Addition examples showing carries: (a) decimal (b) binary
+	![[Pasted image 20241225161143.png|400]]
 
+## 1.4.6 Signed Binary Numbers
+### Sign/Magnitude Numbers
+* Sign/magnitude numbers (符号数/幅值数) are intuitively appealing because they match our custom of writing negative numbers with a minus sign followed by the magnitude.
+* An N-bit sign/magnitude number uses the most significant bit as the sign and the remaining N − 1 bits as the magnitude (absolute value).
+* A sign bit of 0 indicates positive and a sign bit of 1 indicates negative.
 
 
 
