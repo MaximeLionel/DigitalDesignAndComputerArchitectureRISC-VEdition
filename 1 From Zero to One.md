@@ -9,8 +9,13 @@
 * The critical technique for managing complexity is **abstraction**: hiding details when they are not important.
 ### Levels of abstraction for an electronic computing system
 ![[Pasted image 20241225141732.png|500]]
-* Physics - At the lowest level of abstraction is the physics, the motion of electrons (电子). The behavior of electrons is described by quantum mechanics （量子力学） and Maxwell’s equations （麦克斯韦方程组）.
+* Physics:
+	* At the lowest level of abstraction is the physics, the motion of electrons (电子). 
+	* The behavior of electrons is described by quantum mechanics （量子力学） and Maxwell’s equations （麦克斯韦方程组）.
 * Devices:
 	* Our system is constructed from electronic devices such as  transistors (or vacuum tubes, once upon a time). 
 	* These devices have well-defined connection points called **terminals** and can be modeled by the relationship between voltage and current as measured at each terminal.
 	* By abstracting to this device level, we can ignore the individual electrons.
+* Analog circuits (模拟电路):
+	* devices  are assembled to create components such as amplifiers. 
+	* Analog circuits input and output a continuous range of voltages
