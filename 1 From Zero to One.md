@@ -29,3 +29,36 @@
 * Applications.
 
 ## 1.2.2 Discipline
+
+## 1.2.3 The Three -Y’s
+* Hierarchy involves dividing a system into modules, then further subdividing each of these modules until the pieces are easy to understand.
+* Modularity states that modules have well-defined functions and interfaces so that they connect easily without unanticipated side effects.
+* Regularity seeks uniformity among modules. Common modules are reused many times, reducing the number of distinct modules that must be designed.
+
+# 1.3 THE DIGITAL ABSTRACTION
+
+# 1.4 NUMBER SYSTEMS
+## 1.4.1 Decimal Numbers
+## 1.4.2 Binary Numbers
+![[Pasted image 20241225153232.png|600]]
+![[Pasted image 20241225153308.png|800]]
+
+## 1.4.3 Hexadecimal Numbers
+![[Pasted image 20241225153417.png|700]]
+
+
+## 1.4.4 Bytes, Nibbles, and All That Jazz
+* A group of four bits, or half a byte, is called a **nibble**.
+
+
+
+
+
+
+
+
+
+
+
+
+
