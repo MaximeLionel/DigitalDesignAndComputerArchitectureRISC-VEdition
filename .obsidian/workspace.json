@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "3eb1cd6ce7f914fa",
@@ -164,8 +163,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "835352092123a3ef",
+  "active": "5446ab0046e03779",
   "lastOpenFiles": [
+    "Pasted image 20241225140850.png",
     "1 From Zero to One.md"
   ]
 }
