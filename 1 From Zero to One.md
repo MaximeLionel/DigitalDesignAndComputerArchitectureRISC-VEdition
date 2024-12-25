@@ -145,11 +145,24 @@ bits.
 $−5_{10} = 1011_2$ 
 $3_{10} + (−5_{10}) = 0011_2 + 1011_2 = 1110_2 = −2_{10}$
 
+#### Example 1.14 ADDING TWO’S COMPLEMENT NUMBERS WITH OVERFLOW
+Compute $4_{10} + 5_{10}$ using 4-bit two’s complement numbers. Does the result 
+overflow?
+
+Solution: 
+$4_{10} + 5_{10} = 0100_2 + 0101_2 = 1001_2 = −7_{10}$
+* The result overflows the range of 4-bit positive two’s complement numbers, producing an incorrect negative result. 
+* If the computation had been done using 5 or more bits, the result $01001_2 = 9_{10}$ would have been correct.
 
 
+* **Sign extension** - When a two’s complement number is extended to more bits, the sign bit must be copied into the most significant bit positions.
 
-
-
+### Comparison of Number Systems
+* The 3 most commonly used binary number systems: **unsigned**, **two’s complement**, and **sign/magnitude**.
+* Range of N-bit numbers:
+	![[Pasted image 20241225173557.png|600]]
+* Number line and 4-bit binary encodings:
+	![[Pasted image 20241225173641.png|1000]]
 
 
 
