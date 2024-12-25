@@ -19,5 +19,9 @@
 * Analog circuits (模拟电路):
 	* devices  are assembled to create components such as amplifiers. 
 	* Analog circuits input and output a continuous range of voltages.
-* Digital circuits - such as logic gates, restrict the voltages to discrete ranges, which we will use to 
-indicate 0 and 1.
+* Digital circuits - such as logic gates, restrict the voltages to discrete ranges, which we will use to indicate 0 and 1.
+* Microarchitecture - links the logic and architecture levels of abstraction.
+	* such as ALU, registers, cache, pipeline.
+* Architecture - describes a computer from the programmer’s perspective. 
+	* For example, the Intel x86 architecture used by microprocessors in most personal computers (PCs) is defined by a set of instructions and registers (memory for temporarily storing variables) that the programmer is allowed to use.
+	* Microarchitecture  involves combining logic elements to execute the instructions defined by the architecture.
