@@ -25,3 +25,7 @@
 * Architecture - describes a computer from the programmer’s perspective. 
 	* For example, the Intel x86 architecture used by microprocessors in most personal computers (PCs) is defined by a set of instructions and registers (memory for temporarily storing variables) that the programmer is allowed to use.
 	* Microarchitecture  involves combining logic elements to execute the instructions defined by the architecture.
+* Operating system - Moving into the software realm, the operating system handles low-level details, such as accessing a hard drive or managing memory.
+* Applications.
+
+## 1.2.2 Discipline
