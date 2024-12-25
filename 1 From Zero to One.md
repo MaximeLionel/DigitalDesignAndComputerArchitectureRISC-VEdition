@@ -95,6 +95,10 @@ $-5_{10}=1101_2$
 * Reversing the sign method:
 	* inverting the bits in the number
 	* adding 1 to the least significant bit position. 
+* the range of an N-bit two’s complement number spans $[−2^{N−1}, 2^{N−1} − 1]$.
+* The weird number - the most negative number $10…000^2 = −2^{N−1}$. 
+	* Its two’s complement is found by inverting the bits (producing $01…111^2$) and adding 1, which produces $10…000^2$, the weird number, again. 
+	* Hence, this negative number has no positive counterpart.
 
 #### Example 1.10 TWO’S COMPLEMENT REPRESENTATION OF A NEGATIVE NUMBER
 Find the representation of $−2_{10}$ as a 4-bit two’s complement number.
@@ -120,8 +124,47 @@ N + 1th result bit) is discarded.
 Compute (a) $−2_{10} + 1_{10}$ and (b) $−7_{10} + 7_{10}$ using two’s complement numbers.
 
 Solution:
-(a) $−2_{10} + 1_{10} = 1110_2 + 0001_2 = 11112 = −110$
-(b) −710 + 710 = 10012 + 
-01112 = 100002. The fifth bit is discarded, leaving the correct 4-bit result 00002.
+(a) $−2_{10} + 1_{10} = 1110_2 + 0001_2 = 1111_2 = −1_{10}$
+(b) $−7_{10} + 7_{10} = 1001_2 + 0111_2 = 10000_2$. 
+The 5th bit is discarded, leaving the correct 4-bit result $0000_2$.
+
+* Subtraction is performed by taking the two’s complement of the second number, then adding.
+
+#### Example 1.13 SUBTRACTING TWO’S COMPLEMENT NUMBERS
+Compute (a) $5_{10} − 3_{10}$ and (b) $3_{10} − 5_{10}$ using 4-bit two’s complement numbers.
+
+Solution: 
+(a) 
+$3_{10} = 0011_2$
+$−3_{10} = 1101_2$ 
+$5_{10} + (−3_{10}) = 0101_2 + 1101_2 = 0010_2 = 2_{10}$
+Note that the carry out of the most significant position is discarded because the result is stored in four 
+bits. 
+
+(b) 
+$−5_{10} = 1011_2$ 
+$3_{10} + (−5_{10}) = 0011_2 + 1011_2 = 1110_2 = −2_{10}$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
