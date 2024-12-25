@@ -59,7 +59,16 @@
 	* the term **kilo** indicates $2^{10} \approx 10^3$.
 	* the term **mega** indicates $2^{20} \approx 10^6$.
 	* the term giga indicates $2^{30} ≈ 10^9$.
-.
+	* KB or KiB / MB or MiB / GB or GiB.
+	* Kb or Kib / Mb or Mib / Gb or Gib.
+
+### Example 1.6 ESTIMATING POWERS OF TWO
+Find the approximate value of $2^{24}$ without using a calculator.
+
+**Solution**:
+$2^{24} = 2^{20} × 2^4$
+$2^{20} \approx 1 million$ and $2^4 = 16$ 
+So, $2^{24} \approx 16 million$.
 
 
 
