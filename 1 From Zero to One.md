@@ -238,7 +238,11 @@ When the output is HIGH ($NM_H = 0.69V$), the circuit cannot tolerate $1V$ of no
 
 ## 1.6.4 DC Transfer Characteristics (直流传输特性)
 * The **DC transfer characteristics** of a gate describe the output voltage as a function of the input voltage when the input is changed slowly enough that the output can keep up.
-
+* An ideal inverter（反相器） would have an abrupt switching threshold at $V_{DD}/2$.
+	![[Pasted image 20241226161400.png|600]]
+	* For $V(A) < V_{DD}/2$, $V(Y) = V_{DD}$. 
+	* For $V(A) > V_{DD}/2$, $V(Y) = 0$. 
+	* In such a case, VIH = VIL = VDD/2. VOH = VDD and VOL = 0
 
 
 
