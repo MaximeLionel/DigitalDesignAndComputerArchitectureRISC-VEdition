@@ -204,6 +204,13 @@ $4_{10} + 5_{10} = 0100_2 + 0101_2 = 1001_2 = −7_{10}$
 
 # 1.6 BENEATH THE DIGITAL ABSTRACTION
 
+## 1.6.1 Supply Voltage
+* The lowest voltage in the system is 0 V, also called ground or GND. 
+* The highest voltage in the system comes from the power supply and is usually called $V_{DD}$.
+
+## 1.6.2 Logic Levels
+![[Pasted image 20241226101700.png|800]]
+* The mapping of a continuous variable onto a discrete binary variable is done by defining **logic levels**.
 
 
 
