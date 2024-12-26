@@ -172,8 +172,11 @@ $4_{10} + 5_{10} = 0100_2 + 0101_2 = 1001_2 = −7_{10}$
 ## 1.5.1 NOT Gate
 ![[Pasted image 20241226085614.png|200]]
 * A NOT gate has one input, A, and one output, Y.
-* $Y=\overline{A}$ is read “Y equals NOT A.” The NOT gate is also called an **inverter**.
+* $Y=\overline{A}$ is read “Y equals NOT A.” The NOT gate is also called an **inverter** (反相器).
 
+## 1.5.2 Buffer
+![[Pasted image 20241226090424.png|200]]
+* The one-input logic gate above is called a **buffer**。
 
 
 
