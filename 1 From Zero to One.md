@@ -236,6 +236,8 @@ $NM_H=V_{OH}-V_{IH}=3.84-3.15=0.69V$
 When the output is LOW ($NM_L = 1.02V$), the circuit can tolerate $1V$ of noise. 
 When the output is HIGH ($NM_H = 0.69V$), the circuit cannot tolerate $1V$ of noise. 
 
+## 1.6.4 DC Transfer Characteristics (直流传输特性)
+
 
 
 
