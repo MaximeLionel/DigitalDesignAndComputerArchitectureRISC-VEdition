@@ -191,10 +191,18 @@ $4_{10} + 5_{10} = 0100_2 + 0101_2 = 1001_2 = −7_{10}$
 
 ## 1.5.5 Other Two-Input Gates
 ![[Pasted image 20241226100155.png|200]]
-* XOR operation is indicated by ⊕
+* XOR operation is indicated by $\bigoplus$.
+* An N-input XOR gate is sometimes called a **parity gate** and produces a TRUE output if an odd number of inputs are TRUE.
 
+![[Pasted image 20241226100357.png|200]]
+* NAND gate performs NOT AND.
 
+![[Pasted image 20241226100428.png|200]]
+* NOR gate performs NOT OR.
 
+## 1.5.6 Multiple-Input Gates
+
+# 1.6 BENEATH THE DIGITAL ABSTRACTION
 
 
 
