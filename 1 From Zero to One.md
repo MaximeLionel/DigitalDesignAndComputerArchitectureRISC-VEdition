@@ -226,10 +226,12 @@ $NM_H = V_{OH} - V_{IH}$
 ![[Pasted image 20241226110959.png|700]]
 
 ### Example 1.18 CALCULATING NOISE MARGINS
-Consider the inverter circuit of Figure 1.24. $V_{O1}$ is the output voltage of inverter $I1$, and $V_{I2}$ is the input voltage of inverter $I2$. Both inverters have the following characteristics: $V_{DD} = 5V$, $V_{IL} = 1.35V$, $V_{IH} = 3.15V$, $V_{OL} = 0.33V$, and $V_{OH} = 3.84V$. What are the inverter low and high noise margins? Can the circuit tolerate $1V$ of noise between $V_{O1}$ and $V_{I2}$ ?
+Consider the inverter circuit of Figure below. $V_{O1}$ is the output voltage of inverter $I1$, and $V_{I2}$ is the input voltage of inverter $I2$. Both inverters have the following characteristics: $V_{DD} = 5V$, $V_{IL} = 1.35V$, $V_{IH} = 3.15V$, $V_{OL} = 0.33V$, and $V_{OH} = 3.84V$. What are the inverter low and high noise margins? Can the circuit tolerate $1V$ of noise between $V_{O1}$ and $V_{I2}$ ?
 ![[Pasted image 20241226111532.png|500]]
 
-
+Solution:
+$NM_L=V_{IL}-V_{OL}=1.35-0.33=1.02V$
+$NM_H=V_{OH}-V_{IH}=3.84-3.15=0.69V$
 
 
 
