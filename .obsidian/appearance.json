@@ -1,5 +1,8 @@
 {
   "cssTheme": "Blue Topaz",
-  "textFontFamily": "Consolas",
-  "baseFontSize": 24
+  "textFontFamily": "Apple Symbols,Consolas",
+  "baseFontSize": 24,
+  "theme": "obsidian",
+  "monospaceFontFamily": "Consolas",
+  "interfaceFontFamily": "Consolas"
 }

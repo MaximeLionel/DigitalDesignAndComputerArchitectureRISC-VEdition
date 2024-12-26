@@ -256,6 +256,7 @@ When the output is HIGH ($NM_H = 0.69V$), the circuit cannot tolerate $1V$ of no
 
 ## 1.6.5 The Static Discipline
 * To avoid inputs falling into the forbidden zone, digital logic gates are designed to conform to the static discipline.
+	* The static discipline requires that, given logically valid inputs, every circuit element will produce logically valid outputs.
 * Logic levels of 5V and 3.3V logic families:
 	![[Pasted image 20241226173004.png|800]]
 
