@@ -254,6 +254,8 @@ When the output is HIGH ($NM_H = 0.69V$), the circuit cannot tolerate $1V$ of no
 		* If $V_{IL}$ were reduced, $V_{OH}$ would only increase by a small amount. 
 		* If $V_{IL}$ were increased, $V_{OH}$ would drop precipitously.
 
+## 1.6.5 The Static Discipline
+* To avoid inputs falling into the forbidden zone, digital logic gates are designed to conform to the static discipline.
 
 
 
