@@ -246,7 +246,13 @@ When the output is HIGH ($NM_H = 0.69V$), the circuit cannot tolerate $1V$ of no
 	* $V_{OH} = V_{DD}$ and $V_{OL} = 0$.
 * A real inverter changes more gradually between the extremes.
 	![[Pasted image 20241226162515.png|600]]
-	* When the input voltage $V(A)$ is 0, the output voltage $V(Y) = V_{DD}$. When $V(A) = V_{DD}$, $V(Y) = 0$.
+	* When the input voltage $V(A)$ is 0, the output voltage $V(Y) = V_{DD}$. 
+	* When $V(A) = V_{DD}$, $V(Y) = 0$.
+	* However, the transition between these endpoints is smooth and may not be centered at exactly $V_{DD}/2$.
+	* **Unity gain points** - a reasonable place to choose the logic levels is where the slope of the transfer characteristic $dV(Y)/dV(A) = −1$.
+	* Choosing logic levels at the unity gain points usually **maximizes the noise margins**. 
+		* If $V_{IL}$ were reduced, $V_{OH}$ would only increase by a small amount. 
+		* If $V_{IL}$ were increased, $V_{OH}$ would drop precipitously.
 
 
 
