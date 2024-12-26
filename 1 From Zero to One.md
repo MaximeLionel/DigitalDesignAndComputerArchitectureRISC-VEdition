@@ -165,6 +165,23 @@ $4_{10} + 5_{10} = 0100_2 + 0101_2 = 1001_2 = −7_{10}$
 	![[Pasted image 20241225173641.png|1000]]
 	* For sign/Magnitude, 0 is represented by both 0000 and 1000.
 
+# 1.5 Logic Gates
+* Logic gates are simple digital circuits that take one or more binary inputs and produce a binary output.
+* A truth table lists inputs on the left and the corresponding output on the right.
+* A Boolean equation is a mathematical expression using binary variables.
+## 1.5.1 NOT Gate
+![[Pasted image 20241226085614.png|200]]
+* A NOT gate has one input, A, and one output, Y.
+* $Y=\overline{A}$ is read “Y equals NOT A.” The NOT gate is also called an **inverter**.
+
+
+
+
+
+
+
+
+
 
 
 
