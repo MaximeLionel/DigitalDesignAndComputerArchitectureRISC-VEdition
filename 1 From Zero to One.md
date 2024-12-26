@@ -211,6 +211,16 @@ $4_{10} + 5_{10} = 0100_2 + 0101_2 = 1001_2 = −7_{10}$
 ## 1.6.2 Logic Levels
 ![[Pasted image 20241226101700.png|800]]
 * The mapping of a continuous variable onto a discrete binary variable is done by defining **logic levels**.
+* The first gate is called the **driver** and the second gate is called the **receiver**.
+	* The output of the driver is connected to the input of the receiver.
+* The driver produces a $LOW (0)$ output in the range of 0 to $V_{OL}$ or a $HIGH (1)$ output in the range of $V_{OH}$ to $V_{DD}$.
+	* If the receiver gets an input in the range of 0 to $V_{IL}$, it will consider the input to be $LOW$. 
+	* If the receiver gets an input in the range of $V_{IH}$ to $V_{DD}$, it will consider the input to be $HIGH$. 
+	* If the receiver’s input should fall in the forbidden zone between $V_{IL}$ and $V_{IH}$, the behavior of the gate is unpredictable. 
+* $V_{OH}$, $V_{OL}$, $V_{IH}$, and $V_{IL}$ are called the output and input high and low logic levels.
+
+## 1.6.3 Noise Margins
+* The noise margin (NM) is the amount of noise that could be added to a worst-case output such that the signal can still be interpreted as a valid input.
 
 
 
