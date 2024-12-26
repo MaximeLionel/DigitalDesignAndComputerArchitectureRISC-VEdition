@@ -220,9 +220,14 @@ $4_{10} + 5_{10} = 0100_2 + 0101_2 = 1001_2 = −7_{10}$
 * $V_{OH}$, $V_{OL}$, $V_{IH}$, and $V_{IL}$ are called the output and input high and low logic levels.
 
 ## 1.6.3 Noise Margins
+$NM_L= V_{IL} - V_{OL}$
+$NM_H = V_{OH} - V_{IH}$
 * The noise margin (NM) is the amount of noise that could be added to a worst-case output such that the signal can still be interpreted as a valid input.
+![[Pasted image 20241226110959.png|700]]
 
-
+### Example 1.18 CALCULATING NOISE MARGINS
+Consider the inverter circuit of Figure 1.24. $V_{O1}$ is the output voltage of inverter $I1$, and $V_{I2}$ is the input voltage of inverter $I2$. Both inverters have the following characteristics: $V_{DD} = 5V$, $V_{IL} = 1.35V$, $V_{IH} = 3.15V$, $V_{OL} = 0.33V$, and $V_{OH} = 3.84V$. What are the inverter low and high noise margins? Can the circuit tolerate $1V$ of noise between $V_{O1}$ and $V_{I2}$ ?
+![[Pasted image 20241226111532.png|500]]
 
 
 
