@@ -258,7 +258,12 @@ When the output is HIGH ($NM_H = 0.69V$), the circuit cannot tolerate $1V$ of no
 * To avoid inputs falling into the forbidden zone, digital logic gates are designed to conform to the static discipline.
 	* The static discipline requires that, given logically valid inputs, every circuit element will produce logically valid outputs.
 * Logic levels of 5V and 3.3V logic families:
-	![[Pasted image 20241226173004.png|800]]
+	![[Pasted image 20241226173004.png|700]]
+### Example 1.19 LOGIC FAMILY COMPATIBILITY
+Which of the logic families in Table above can communicate with each other reliably?
+
+Solution:
+![[Pasted image 20241226223914.png|600]]
 
 
 
