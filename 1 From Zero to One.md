@@ -237,6 +237,10 @@ When the output is LOW ($NM_L = 1.02V$), the circuit can tolerate $1V$ of noise.
 When the output is HIGH ($NM_H = 0.69V$), the circuit cannot tolerate $1V$ of noise. 
 
 ## 1.6.4 DC Transfer Characteristics (直流传输特性)
+* The **DC transfer characteristics** of a gate describe the output voltage as a function of the input voltage when the input is changed slowly enough that the output can keep up.
+
+
+
 
 
 
