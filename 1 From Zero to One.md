@@ -176,9 +176,14 @@ $4_{10} + 5_{10} = 0100_2 + 0101_2 = 1001_2 = −7_{10}$
 
 ## 1.5.2 Buffer
 ![[Pasted image 20241226090424.png|200]]
-* The one-input logic gate above is called a **buffer**。
+* The one-input logic gate above is called a **buffer**.
+* The triangle symbol indicates a buffer. A circle on the output is called a bubble and indicates **inversion**:
+	![[Pasted image 20241226095135.png|200]]
 
-
+## 1.5.3 AND Gate
+![[Pasted image 20241226095221.png|200]]
+* Y = AB, read “Y equals 
+A and B,” b
 
 
 
