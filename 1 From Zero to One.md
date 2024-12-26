@@ -182,8 +182,29 @@ $4_{10} + 5_{10} = 0100_2 + 0101_2 = 1001_2 = −7_{10}$
 
 ## 1.5.3 AND Gate
 ![[Pasted image 20241226095221.png|200]]
-* Y = AB, read “Y equals 
-A and B,” b
+* $Y = AB$, read “Y equals A and B”.
+
+## 1.5.4 OR Gate
+![[Pasted image 20241226095319.png|200]]
+
+* $Y = A + B$ is pronounced “Y equals A or B”.
+
+## 1.5.5 Other Two-Input Gates
+![[Pasted image 20241226100155.png|200]]
+* XOR operation is indicated by ⊕
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
