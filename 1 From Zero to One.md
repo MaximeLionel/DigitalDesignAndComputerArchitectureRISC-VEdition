@@ -242,8 +242,11 @@ When the output is HIGH ($NM_H = 0.69V$), the circuit cannot tolerate $1V$ of no
 	![[Pasted image 20241226161400.png|600]]
 	* For $V(A) < V_{DD}/2$, $V(Y) = V_{DD}$. 
 	* For $V(A) > V_{DD}/2$, $V(Y) = 0$. 
-	* In such a case, VIH = VIL = VDD/2. VOH = VDD and VOL = 0
-
+	* $V_{IH} = V_{IL} = V_{DD}/2$. 
+	* $V_{OH} = V_{DD}$ and $V_{OL} = 0$.
+* A real inverter changes more gradually between the extremes.
+	![[Pasted image 20241226162515.png|600]]
+	* When the input voltage $V(A)$ is 0, the output voltage $V(Y) = V_{DD}$. When $V(A) = V_{DD}$, $V(Y) = 0$.
 
 
 
