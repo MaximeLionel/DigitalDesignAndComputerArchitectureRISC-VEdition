@@ -283,8 +283,18 @@ A classroom has an old clock on the wall whose minute hand broke off.
 
 **Solution**:
 (a)
+12 hours / 15 minutes = 48
+$log_2 48 = 5.6 \approx 6$
 
+(b)
+1 more bit to split 1 day into 2 halves indicating before or after noon.
 
+## Exercise 1.6 
+The Babylonians developed the sexagesimal (base 60) number system about 4000 years ago. How many bits of information is conveyed with one sexagesimal digit? How do you write the number $4000_{10}$ in sexagesimal?
+
+**Solution**:
+$log_2 60=5.9\approx 6$ bits
+6 bits is required for one sexagesimal digit.
 
 
 
