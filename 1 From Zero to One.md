@@ -266,8 +266,15 @@ Solution:
 ![[Pasted image 20241226223914.png|600]]
 
 
+# Exercises
+## Exercise 1.4 
+An analog voltage is in the range of 0–5V. If it can be measured with an accuracy of ±50mV, at most how many bits of information does it convey?
 
-
+**Solution**:
+5 V = 5000 mV
+(5000 mV + 50 mV) / 50 mV = 101
+$\log_2 101$ = 6.7 
+So it needs 7 
 
 
 
