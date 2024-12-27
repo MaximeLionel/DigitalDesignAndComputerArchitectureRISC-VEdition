@@ -297,8 +297,8 @@ $log_2 60=5.9\approx 6$ bits
 6 bits is required for one sexagesimal digit.
 
 Bit 0: $4000 \mod 60 = 40$
-Bit 1: $(4000-40)/60=66$, 
-
+Bit 1: $(4000-40)/60=66$, $66\mod60=6$
+Bit 2: $6\mod60=6$
 
 
 
