@@ -273,8 +273,15 @@ An analog voltage is in the range of 0–5V. If it can be measured with an accur
 **Solution**:
 5 V = 5000 mV
 (5000 mV + 50 mV) / 50 mV = 101
-$\log_2 101$ = 6.7 
-So it needs 7 
+$\log_2 101 = 6.7\approx7$
+So it needs 7 bits of information.
+
+## Exercise 1.5 
+A classroom has an old clock on the wall whose minute hand broke off.
+(a) If you can read the hour hand to the nearest 15minutes, how many bits of information does the clock convey about the time?
+(b) If you know whether it is before or after noon, how many additional bits of information do you know about the time?
+
+**Solution**:
 
 
 
