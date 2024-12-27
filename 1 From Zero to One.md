@@ -296,6 +296,8 @@ The Babylonians developed the sexagesimal (base 60) number system about 4000 yea
 $log_2 60=5.9\approx 6$ bits
 6 bits is required for one sexagesimal digit.
 
+Bit 0: $4000 \mod 60 = 40$
+Bit 1: $(4000-40)/60=66$, 
 
 
 
