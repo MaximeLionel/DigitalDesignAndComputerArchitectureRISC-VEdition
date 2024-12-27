@@ -278,10 +278,12 @@ So it needs 7 bits of information.
 
 ## Exercise 1.5 
 A classroom has an old clock on the wall whose minute hand broke off.
-(a) If you can read the hour hand to the nearest 15minutes, how many bits of information does the clock convey about the time?
+(a) If you can read the hour hand to the nearest 15 minutes, how many bits of information does the clock convey about the time?
 (b) If you know whether it is before or after noon, how many additional bits of information do you know about the time?
 
 **Solution**:
+(a)
+
 
 
 
