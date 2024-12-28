@@ -331,7 +331,18 @@ What is the largest 32-bit binary number that can be represented with
 (b) two’s complement numbers?
 (c) sign/magnitude numbers?
 
+**Solution**:
+(a) $2^{32}-1=4294967295$
+(b) $2^{31}-1=2147483647$
+(c) $2^{31}-1=2147483647$
 
+## Exercise 1.11 
+What is the smallest (most negative) 16-bit binary number that can be represented with
+(a) unsigned numbers?
+(b) two’s complement numbers?
+(c) sign/magnitude numbers?
+
+**Solution**:
 
 
 
