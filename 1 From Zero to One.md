@@ -320,8 +320,16 @@ What is the largest 16-bit binary number that can be represented with
 (b) two’s complement numbers?
 (c) sign/magnitude numbers?
 
+**Solution**:
+(a) $2^{16}-1=65535$
+(b) $2^{15}-1=32767$
+(c) $2^{15}-1=32767$
 
-
+## Exercise 1.10 
+What is the largest 32-bit binary number that can be represented with
+(a) unsigned numbers?
+(b) two’s complement numbers?
+(c) sign/magnitude numbers?
 
 
 
