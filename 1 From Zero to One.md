@@ -300,15 +300,25 @@ Bit 0: $4000 \mod 60 = 40$
 Bit 1: $(4000-40)/60=66$, $66\mod60=6$
 Bit 2: $6\mod60=6$
 
-So the $4000_{10}$ in sexagesimal is (6,6,40)
+So the $4000_{10}$ in sexagesimal is (6,6,40).
 
+## Exercise 1.7 
+How many different numbers can be represented with 16 bits?
 
+**Solution**:
+$2^{16}=65536$
 
+## Exercise 1.8 
+What is the largest unsigned 32-bit binary number?
 
+**Solution**:
+$2^{32}-1=4294967295$
 
-
-
-
+## Exercise 1.9 
+What is the largest 16-bit binary number that can be represented with
+(a) unsigned numbers?
+(b) two’s complement numbers?
+(c) sign/magnitude numbers?
 
 
 
