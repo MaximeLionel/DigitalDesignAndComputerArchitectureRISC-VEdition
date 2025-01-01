@@ -343,7 +343,20 @@ What is the smallest (most negative) 16-bit binary number that can be represente
 (c) sign/magnitude numbers?
 
 **Solution**:
+(a) 0
+(b) $-2^{15}=-32768$
+(c) $-2^{15}+1=-32767$
 
+## Exercise 1.12 
+What is the smallest (most negative) 32-bit binary number that can be represented with
+(a) unsigned numbers?
+(b) two’s complement numbers?
+(c) sign/magnitude numbers?
+
+**Solution**:
+(a) 0
+(b) $-2^{31}=-2147483648$
+(c) $-2^{31}+1=-2147483647$
 
 
 
