@@ -358,6 +358,54 @@ What is the smallest (most negative) 32-bit binary number that can be represente
 (b) $-2^{31}=-2147483648$
 (c) $-2^{31}+1=-2147483647$
 
+## Exercise 1.13 
+Convert the following unsigned binary numbers to decimal. Show your work.
+(a) $1010_2$
+(b) $110110_2$
+(c) $11110000_2$
+(d) $000100010100111_2$
+
+**Solution**:
+10 54 240 2215
+
+## Exercise 1.14 
+Convert the following unsigned binary numbers to decimal. Show your work.
+(a) $1110_2$
+(b) $100100_2$
+(c) $11010111_2$
+(d) $011101010100100_2$
+
+**Solution**:
+14 36 215 15012
+
+## Exercise 1.15 
+Repeat Exercise 1.13, but convert to hexadecimal.
+
+**Solution**:
+(a) $1010_2$ = 0xA
+(b) $110110_2$ = 0x36
+(c) $11110000_2$ = 0xF0
+(d) $000100010100111_2$ = 0x08A7
+
+## Exercise 1.16 
+Repeat Exercise 1.14, but convert to hexadecimal.
+
+**Solution**:
+(a) $1110_2$ = 0xE
+(b) $100100_2$ = 0x24
+(c) $11010111_2$ = 0xD7
+(d) $011101010100100_2$ = 0x3AA4
+
+
+
+
+
+
+
+
+
+
+
 
 
 
