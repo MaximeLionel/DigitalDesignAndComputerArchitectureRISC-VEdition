@@ -396,8 +396,25 @@ Repeat Exercise 1.14, but convert to hexadecimal.
 (c) $11010111_2$ = 0xD7
 (d) $011101010100100_2$ = 0x3AA4
 
+## Exercise 1.17 
+Convert the following hexadecimal numbers to decimal. Show your work.
+(a) $A5_{16}$
+(b) $3B_{16}$
+(c) $FFFF_{16}$
+(d) $D0000000_{16}$
 
+**Solution**:
+165 59 65535 3489660928
 
+## Exercise 1.18 
+Convert the following hexadecimal numbers to decimal. Show your work.
+(a) $4E_{16}$
+(b) $7C_{16}$
+(c) $ED3A_{16}$
+(d) $403FB001_{16}$
+
+**Solution**:
+78 124 60730 1077915649
 
 
 
