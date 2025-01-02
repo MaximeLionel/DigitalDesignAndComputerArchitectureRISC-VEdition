@@ -44,6 +44,7 @@
 	▸ Every circuit element is itself **combinational**.
 	▸ Every node of the circuit is either designated as an **input** to the circuit or connects to exactly one **output** terminal of a circuit element.
 	▸ The circuit contains **no cyclic paths**: every path through the circuit visits each circuit node at most once.
+* The functional specification of a combinational circuit is usually expressed as a **truth table** or a **Boolean equation**.
 
 ## Example 2.1 COMBINATIONAL CIRCUITS
 Which of the circuits below are combinational circuits according to the rules of combinational composition?
@@ -53,7 +54,16 @@ Which of the circuits below are combinational circuits according to the rules of
 a is a combinational circuit.
 b is not, because of the cyclic path.
 c is a combinational circuit.
-d is not, because node n6 is not designated as exactly one output to the circuit.
+d is not, because node n6 is not designated as exactly 1 output of the circuit, but 2.
+e is a combinational circuit.
+f is not, because of the cyclic path.
+
+# 2.2 BOOLEAN EQUATIONS
+## 2.2.1 Terminology
+* The complement of a variable A is its inverse $\overline{A}$.
+	* The variable or its complement is called a **literal**. 
+	* For example, A, $\overline{A}$, B, and $\overline{B}$ are literals.
+	* We call A the true form of the variable and $\overline{A}$ the complementary form.
 
 
 
