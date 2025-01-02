@@ -36,6 +36,10 @@
 * Example of a combinational circuit with multiple outputs:
 	![[Pasted image 20250102145113.png|280]]
 	* This particular combinational circuit is called a **full adder**.
+	* The 2 equations specify the function of the outputs, S and $C_{out}$, in terms of the inputs, A, B, and $C_{in}$.
+* Slash notation for multiple signals:
+	![[Pasted image 20250102150339.png|300]]
+	* A single line with a slash through it and a number next to it to indicate a **bus**, a bundle of multiple signals. The number specifies how many signals are in the bus.
 
 
 
