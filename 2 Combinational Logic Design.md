@@ -40,6 +40,13 @@
 * Slash notation for multiple signals:
 	![[Pasted image 20250102150339.png|300]]
 	* A single line with a slash through it and a number next to it to indicate a **bus**, a bundle of multiple signals. The number specifies how many signals are in the bus.
+* A circuit is combinational if it consists of interconnected circuit elements 
+such that
+▸ Every circuit element is itself combinational.
+▸ Every node of the circuit is either designated as an input to the circuit 
+or connects to exactly one output terminal of a circuit element.
+▸ The circuit contains no cyclic paths: every path through the circuit 
+visits each circuit node at most once.
 
 
 
