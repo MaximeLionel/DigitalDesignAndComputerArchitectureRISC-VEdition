@@ -64,6 +64,7 @@ f is not, because of the cyclic path.
 	* The variable or its complement is called a **literal**. 
 	* For example, A, $\overline{A}$, B, and $\overline{B}$ are literals.
 	* We call A the true form of the variable and $\overline{A}$ the complementary form.
+* The $AND$ of one or more literals is called a **product** (积项) or an **implicant** (蕴含项).
 
 
 
