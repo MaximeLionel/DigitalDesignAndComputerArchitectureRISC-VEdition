@@ -6,6 +6,7 @@
 	* one or more discrete-valued **output** terminals.
 	* a functional specification - the **relationship** between inputs and outputs.
 	* a timing specification - the **delay** between inputs changing and outputs responding.
+		* It consists of lower and upper bounds on the delay from input to output.
 * Circuits are composed of **nodes** and **elements**. 
 	* An element is itself a circuit with inputs, outputs, and a specification. 
 	* A node is a wire, whose voltage conveys a discrete-valued variable.
@@ -20,6 +21,8 @@
 		* 6 nodes: nodes A, B, and C are inputs. Y and Z are outputs. n1 is an internal node between E1 and E3.
 * Digital circuits are classified as **combinational** or **sequential**:
 	* A combinational circuit’s outputs depend only on the current values of the inputs.
-		* combines the current input values to compute the output.
-	*  A sequential circuit’s outputs depend on both current and previous values of the inputs.
-		* depends on the input sequence
+		* It combines the current input values to compute the output.
+		* A combinational circuit is memoryless.
+	* A sequential circuit’s outputs depend on both current and previous values of the inputs.
+		* It depends on the input sequence.
+		* A sequential circuit has memory.
