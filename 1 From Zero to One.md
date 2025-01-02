@@ -434,9 +434,14 @@ Repeat Exercise 1.18, but convert to unsigned binary
 (c) $ED3A_{16}=1110110100111010_2$
 (d) $403FB001_{16}=01000000001111111011000000000001_2$
 
+## Exercise 1.21 
+Convert the following two’s complement binary numbers to decimal.
+(a) $1010_2$
+(b) $110110_2$
+(c) $01110000_2$
+(d) $10011111_2$
 
-
-
+**Solution**:
 
 
 
