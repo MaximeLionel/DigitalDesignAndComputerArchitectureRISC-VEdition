@@ -69,7 +69,17 @@ f is not, because of the cyclic path.
 * A **minterm** (最小项) is a product involving **all** of the inputs to the function.
 	* $A\overline{BC}$ is a minterm for a function of the three variables A, B, and C but AB is not.
 * The $OR$ of one or more literals is called a **sum** （和项）.
+* A **maxterm** （最大项） is a sum involving all of the inputs to the function.
+	* A + B + C is a maxterm for a function of the 3 variables A, B, and C.
+* The order of operations is important when interpreting Boolean equations.
+	* In Boolean equations, $NOT$ has the highest precedence followed by $AND$, then $OR$.
+	* Example: $\overline{A}B+BC\overline{D} = ((\overline{A})B)+(BC(\overline{D}))$
 
+## 2.2.2 Sum-of-Products Form
+* A truth table of $N$ inputs contains $2^N$ rows, one for each possible value of the inputs. 
+	* Each row in a truth table is associated with a minterm that is TRUE for that row.
+	* Example:
+		![[Pasted image 20250102170021.png|350]]
 
 
 
