@@ -40,14 +40,20 @@
 * Slash notation for multiple signals:
 	![[Pasted image 20250102150339.png|300]]
 	* A single line with a slash through it and a number next to it to indicate a **bus**, a bundle of multiple signals. The number specifies how many signals are in the bus.
-* A circuit is combinational if it consists of interconnected circuit elements 
-such that
-▸ Every circuit element is itself combinational.
-▸ Every node of the circuit is either designated as an input to the circuit 
-or connects to exactly one output terminal of a circuit element.
-▸ The circuit contains no cyclic paths: every path through the circuit 
-visits each circuit node at most once.
+* A circuit is combinational if it consists of interconnected circuit elements such that:
+	▸ Every circuit element is itself **combinational**.
+	▸ Every node of the circuit is either designated as an **input** to the circuit or connects to exactly one **output** terminal of a circuit element.
+	▸ The circuit contains **no cyclic paths**: every path through the circuit visits each circuit node at most once.
 
+## Example 2.1 COMBINATIONAL CIRCUITS
+Which of the circuits below are combinational circuits according to the rules of combinational composition?
+![[Pasted image 20250102151718.png|700]]
+
+**Solution**:
+a is a combinational circuit.
+b is not, because of the cyclic path.
+c is a combinational circuit.
+d is not, because node n6 is not designated as exactly one output to the circuit.
 
 
 
