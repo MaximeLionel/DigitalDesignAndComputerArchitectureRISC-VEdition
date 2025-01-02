@@ -65,6 +65,10 @@ f is not, because of the cyclic path.
 	* For example, A, $\overline{A}$, B, and $\overline{B}$ are literals.
 	* We call A the true form of the variable and $\overline{A}$ the complementary form.
 * The $AND$ of one or more literals is called a **product** (积项) or an **implicant** (蕴含项).
+	* $\overline{A}B$, $A\overline{BC}$, and $B$ are all implicants for a function of 3 variables.
+* A **minterm** (最小项) is a product involving **all** of the inputs to the function.
+	* $A\overline{BC}$ is a minterm for a function of the three variables A, B, and C but AB is not.
+* The $OR$ of one or more literals is called a **sum** （和项）.
 
 
 
