@@ -26,3 +26,35 @@
 	* A sequential circuit’s outputs depend on both current and previous values of the inputs.
 		* It depends on the input sequence.
 		* A sequential circuit has memory.
+* Example of a combinational circuit with 2 inputs and 1 output:
+	![[Pasted image 20250102144731.png|250]]
+	* The symbol `CL` inside the box indicates that it is implemented using only combinational logic.
+	* Function F is specified to be OR: Y = F(A, B) = A + B.
+	* In words, we say that the output Y is a function of the 2 inputs, A and B — namely, Y = A OR B.
+* Example of 2 possible implementations for the combinational logic circuit:
+	![[Pasted image 20250102145014.png|280]]
+* Example of a combinational circuit with multiple outputs:
+	![[Pasted image 20250102145113.png|280]]
+	* This particular combinational circuit is called a **full adder**.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
