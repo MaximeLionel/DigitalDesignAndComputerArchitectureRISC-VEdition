@@ -416,7 +416,23 @@ Convert the following hexadecimal numbers to decimal. Show your work.
 **Solution**:
 78 124 60730 1077915649
 
+## Exercise 1.19 
+Repeat Exercise 1.17, but convert to unsigned binary.
 
+**Solution**:
+(a) $A5_{16}=10100101_2$
+(b) $3B_{16}=00111011_2$
+(c) $FFFF_{16}=1111111111111111_2$
+(d) $D0000000_{16}=11010000000000000000000000000000_2$
+
+## Exercise 1.20 
+Repeat Exercise 1.18, but convert to unsigned binary
+
+**Solution**:
+(a) $4E_{16}=01001110_2$
+(b) $7C_{16}=01111100_2$
+(c) $ED3A_{16}=1110110100111010_2$
+(d) $403FB001_{16}=01000000001111111011000000000001_2$
 
 
 
