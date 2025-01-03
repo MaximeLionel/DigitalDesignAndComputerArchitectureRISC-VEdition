@@ -90,6 +90,10 @@ f is not, because of the cyclic path.
 		* A truth table with more than one row in which the output is TRUE. Taking the sum of each of the circled minterms gives $Y =\overline{A}B + AB$.
 		* This is called the **sum-of-products (SOP)** canonical form of a function because it is the sum (OR) of products (ANDs forming minterms).
 		* The sum-of-products canonical form can also be written in sigma notation using the summation symbol: $F(A,B)=\sum{(m_1,m_3)}$ or $F(A,B)=\sum{(1,3)}$.
+	* Example 2:
+		![[Pasted image 20250103164626.png|300]]
+		* This is a random three-input truth table. 
+		* The sum-of-products form of the logic function is:
 
 ## Example 2.2 SUM-OF-PRODUCTS (SOP) FORM
 Ben Bitdiddle is having a picnic. He won’t enjoy it if it rains or if there are ants. Design a circuit that will output TRUE only if Ben enjoys the picnic.
@@ -102,9 +106,12 @@ Output:
 * E - Ben enjoys the picnic.
 
 Equations:
-$E=\overline{A}\overline{R}$ or $E$
+$E=\overline{A}\overline{R}$ or $E=\sum{(0)}$
 and
 $E=\overline{A+B}$
+![[Pasted image 20250103164535.png|300]]
+
+
 
 
 
