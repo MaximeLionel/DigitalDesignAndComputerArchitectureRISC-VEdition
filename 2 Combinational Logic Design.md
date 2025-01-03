@@ -98,7 +98,13 @@ Ben Bitdiddle is having a picnic. He won’t enjoy it if it rains or if there ar
 Inputs:
 * A - ants exist.
 * R - rainy day.
+Output:
+* E - Ben enjoys the picnic.
 
+Equations:
+$E=\overline{A}\overline{R}$ or $E$
+and
+$E=\overline{A+B}$
 
 
 
