@@ -111,7 +111,10 @@ and
 $E=\overline{A+B}$
 ![[Pasted image 20250103164535.png|300]]
 
-
+## 2.2.3 Product-of-Sums Form
+* An alternative way of expressing Boolean functions is the **product-ofsums (POS)** canonical form.
+	* Each row of a truth table corresponds to a maxterm that is FALSE for that row.
+* The product-of-sums canonical form can be written in pi notation using the product symbol, $\prod$.
 
 
 
