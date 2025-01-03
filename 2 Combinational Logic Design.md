@@ -93,7 +93,7 @@ f is not, because of the cyclic path.
 	* Example 2:
 		![[Pasted image 20250103164626.png|300]]
 		* This is a random three-input truth table. 
-		* The sum-of-products form of the logic function is:
+		* The sum-of-products form of the logic function is: $Y=\overline{A}\overline{B}\overline{C}+A\overline{B}\overline{C}+A\overline{B}C$ or $Y=\sum{(0,4,5)}$
 
 ## Example 2.2 SUM-OF-PRODUCTS (SOP) FORM
 Ben Bitdiddle is having a picnic. He won’t enjoy it if it rains or if there are ants. Design a circuit that will output TRUE only if Ben enjoys the picnic.
