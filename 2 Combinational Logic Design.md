@@ -87,7 +87,17 @@ f is not, because of the cyclic path.
 		* Only 1 row (or minterm) for which the output Y is TRUE, shown circled in blue. Thus, $Y = \overline{A}B$.
 	* Example 1:
 		![[Pasted image 20250103155837.png|400]]
-		* A truth table with more than one row in which the output is TRUE. Taking the sum of each of the circled minterms gives $Y AB = + AB$.
+		* A truth table with more than one row in which the output is TRUE. Taking the sum of each of the circled minterms gives $Y =\overline{A}B + AB$.
+		* This is called the **sum-of-products (SOP)** canonical form of a function because it is the sum (OR) of products (ANDs forming minterms).
+		* The sum-of-products canonical form can also be written in sigma notation using the summation symbol: $F(A,B)=\sum{(m_1,m_3)}$ or $F(A,B)=\sum{(1,3)}$.
+
+## Example 2.2 SUM-OF-PRODUCTS (SOP) FORM
+Ben Bitdiddle is having a picnic. He won’t enjoy it if it rains or if there are ants. Design a circuit that will output TRUE only if Ben enjoys the picnic.
+
+**Solution**:
+Inputs:
+* A - ants exist.
+* R - rainy day.
 
 
 
