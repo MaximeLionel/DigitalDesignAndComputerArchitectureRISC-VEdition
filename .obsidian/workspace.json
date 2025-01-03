@@ -92,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "3eb1cd6ce7f914fa",
@@ -180,6 +181,7 @@
   },
   "active": "826046b6ef5224fd",
   "lastOpenFiles": [
+    "attachments/Pasted image 20250103155137.png",
     "attachments/Pasted image 20250102170021.png",
     "attachments/Pasted image 20250102151718.png",
     "attachments/Pasted image 20250102150339.png",
@@ -193,7 +195,6 @@
     "2 Combinational Logic Design.md",
     "Pasted image 20241225153208.md",
     "attachments/Pasted image 20241226223914.png",
-    "attachments/Pasted image 20241226173004.png",
     "attachments"
   ]
 }

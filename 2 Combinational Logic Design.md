@@ -81,7 +81,8 @@ f is not, because of the cyclic path.
 	* Example:
 		![[Pasted image 20250102170021.png|350]]
 
-
+* We can write a Boolean equation for any truth table by summing each of the minterms for which the output, Y, is TRUE.
+![[Pasted image 20250103155137.png|400]]
 
 
 
