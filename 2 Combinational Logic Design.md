@@ -115,13 +115,14 @@ $E=\overline{A+B}$
 * An alternative way of expressing Boolean functions is the **product-ofsums (POS)** canonical form.
 	* Each row of a truth table corresponds to a maxterm that is FALSE for that row.
 * The product-of-sums canonical form can be written in pi notation using the product symbol, $\prod$.
+* Sum-of-products produces a shorter equation when the output is TRUE on only a few rows of a truth table; product-of-sums is simpler when the output is FALSE on only a few rows of a truth table.
 
 ## Example 2.3 PRODUCT-OF-SUMS (POS) FORM
 Write an equation in product-of-sums form for the truth table in Figure below.
 ![[Pasted image 20250103234517.png|400]]
 
 **Solution**:
-$Y=(A+B)(\overline{A}+B)=\prod{(M_0,M_)}$
+$Y=(A+B)(\overline{A}+B)=\prod{(M_0,M_2)}=\prod{(0,2)}$
 
 
 
