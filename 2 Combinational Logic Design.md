@@ -87,6 +87,7 @@ f is not, because of the cyclic path.
 		* Only 1 row (or minterm) for which the output Y is TRUE, shown circled in blue. Thus, $Y = \overline{A}B$.
 	* Example 1:
 		![[Pasted image 20250103155837.png|400]]
+		* A truth table with more than one row in which the output is TRUE. Taking the sum of each of the circled minterms gives $Y AB = + AB$.
 
 
 
