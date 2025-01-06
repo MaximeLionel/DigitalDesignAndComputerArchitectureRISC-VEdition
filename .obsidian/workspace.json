@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "for ubuntu server.md",
+                "file": "2 Combinational Logic Design.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "for ubuntu server"
+              "title": "2 Combinational Logic Design"
             }
           }
         ],
@@ -168,10 +168,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "for ubuntu server.md"
+                "file": "2 Combinational Logic Design.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of for ubuntu server"
+              "title": "Outline of 2 Combinational Logic Design"
             }
           }
         ],
@@ -194,8 +194,8 @@
   },
   "active": "76a5274f17f59b8f",
   "lastOpenFiles": [
-    "2 Combinational Logic Design.md",
     "for ubuntu server.md",
+    "2 Combinational Logic Design.md",
     "attachments/Pasted image 20250103234517.png",
     "attachments/Pasted image 20250103164626.png",
     "attachments/Pasted image 20250103164535.png",
