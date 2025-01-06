@@ -124,6 +124,12 @@ Write an equation in product-of-sums form for the truth table in Figure below.
 **Solution**:
 $Y=(A+B)(\overline{A}+B)=\prod{(M_0,M_2)}=\prod{(0,2)}$
 
+# 2.3 BOOLEAN ALGEBRA (布尔代数)
+* You can use **Boolean algebra** to simplify Boolean equations.
+	* Variables have only two possible values: 0 or 1.
+* Boolean algebra is based on a set of axioms (公理) that we assume are correct.
+	![[Pasted image 20250106140442.png|700]]
+
 
 
 
