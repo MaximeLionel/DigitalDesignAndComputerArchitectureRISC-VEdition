@@ -128,11 +128,15 @@ $Y=(A+B)(\overline{A}+B)=\prod{(M_0,M_2)}=\prod{(0,2)}$
 * You can use **Boolean algebra** to simplify Boolean equations.
 	* Variables have only two possible values: 0 or 1.
 * Boolean algebra is based on a set of axioms (公理) that we assume are correct.
-	![[Pasted image 20250106140442.png|700]]
+* Axioms (公理) and theorems (定理) of Boolean algebra obey the principle of duality (对偶性).
+	* The prime symbol (′) to denote the dual of a statement.
 
+## 2.3.1 Axioms
+![[Pasted image 20250106140442.png|700]]
 
-
-
+## 2.3.2 Theorems of One Variable
+![[Pasted image 20250106141428.png|700]]
+* identity theorem
 
 
 
