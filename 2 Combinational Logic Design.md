@@ -136,8 +136,17 @@ $Y=(A+B)(\overline{A}+B)=\prod{(M_0,M_2)}=\prod{(0,2)}$
 
 ## 2.3.2 Theorems of One Variable
 ![[Pasted image 20250106141428.png|700]]
-* identity theorem
-
+* identity theorem (同一定理):
+	![[Pasted image 20250106141536.png|260]]
+* null element theorem (零元素定理):
+	* 0 is the null element for the AND operation.
+	* 1 is the null element for the OR operation.
+		![[Pasted image 20250106141802.png|260]]
+		* If one input of an AND gate is 0, we can replace the AND gate with a wire that is tied LOW (to 0). 
+		* If one input of an OR gate is 1, we can replace the OR gate with a wire that is tied HIGH (to 1).
+* Idempotency (幂等定理):
+	* A variable $AND$ itself is equal to just itself.
+	* A variable $OR$ itself is equal to itself.
 
 
 
