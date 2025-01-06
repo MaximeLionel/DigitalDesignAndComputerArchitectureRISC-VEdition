@@ -168,12 +168,12 @@ $Y=(A+B)(\overline{A}+B)=\prod{(M_0,M_2)}=\prod{(0,2)}$
 		* Imagine that “pushing” a bubble through the gate causes it to come out at the other side and flips the body of the gate from AND to OR or vice versa.
 
 ## Example 2.4 DERIVE THE PRODUCT-OF-SUMS FORM
-Figure 2.20 shows the truth table for a Boolean function Y and its complement Y.
-Using De Morgan’s Theorem, derive the product-of-sums canonical form of Y
-from the sum-of-products form of Y.
+Figure below shows the truth table for a Boolean function Y and its complement Y. Using De Morgan’s Theorem, derive the product-of-sums canonical form of $Y$ from the sum-of-products form of $\overline{Y}$.
+![[Pasted image 20250106145615.png|250]]
 
-
-
+**Solution**:
+$\overline{Y}=\overline{A}\overline{B}+\overline{A}B$
+$\overline{\overline{Y}}=\overline{\overline{A}\overline{B}+\overline{A}B}=(A+B)(A+\overline{B})=Y$
 
 
 
