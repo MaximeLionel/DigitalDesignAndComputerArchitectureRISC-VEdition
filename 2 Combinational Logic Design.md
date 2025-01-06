@@ -159,7 +159,13 @@ $Y=(A+B)(\overline{A}+B)=\prod{(M_0,M_2)}=\prod{(0,2)}$
 ![[Pasted image 20250106143044.png|1100]]
 * Commutativity and associativity.
 * The distributivity theorem.
-
+* The covering, combining, and consensus theorems.
+* De Morgan’s Theorem explains that the complement of the product of all the terms is equal to the sum of the complement of each term.
+	* A NAND gate is equivalent to an OR gate with inverted inputs.
+	* A NOR gate is equivalent to an AND gate with inverted inputs
+		![[Pasted image 20250106144257.png|400]]
+		* The inversion circle is called a bubble.
+		* Imagine that “pushing” a bubble through the gate causes it to come out at the other side and flips the body of the gate from AND to OR or vice versa.
 
 
 
