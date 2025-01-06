@@ -106,7 +106,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "3eb1cd6ce7f914fa",
@@ -194,6 +195,10 @@
   },
   "active": "76a5274f17f59b8f",
   "lastOpenFiles": [
+    "attachments/Pasted image 20250106143044.png",
+    "attachments/Pasted image 20250106142930.png",
+    "attachments/Pasted image 20250106142720.png",
+    "attachments/Pasted image 20250106142535.png",
     "attachments/Pasted image 20250106141802.png",
     "attachments/Pasted image 20250106141536.png",
     "attachments/Pasted image 20250106141428.png",
@@ -203,10 +208,6 @@
     "attachments/Pasted image 20250103234517.png",
     "attachments/Pasted image 20250103164626.png",
     "attachments/Pasted image 20250103164535.png",
-    "attachments/Pasted image 20250103155837.png",
-    "attachments/Pasted image 20250103155137.png",
-    "attachments/Pasted image 20250102170021.png",
-    "attachments/Pasted image 20250102151718.png",
     "1 From Zero to One.md",
     "Pasted image 20241225153208.md",
     "attachments"

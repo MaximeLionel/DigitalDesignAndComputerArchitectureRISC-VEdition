@@ -147,6 +147,43 @@ $Y=(A+B)(\overline{A}+B)=\prod{(M_0,M_2)}=\prod{(0,2)}$
 * Idempotency (幂等定理):
 	* A variable $AND$ itself is equal to just itself.
 	* A variable $OR$ itself is equal to itself.
+	![[Pasted image 20250106142535.png|260]]
+* Involution (卷绕):
+	![[Pasted image 20250106142720.png|300]]
+* The complement theorem (补充定理):
+	* A variable $AND$ its complement is 0.
+	* A variable $OR$ its complement is 1.
+	![[Pasted image 20250106142930.png|260]]
+
+## 2.3.3 Theorems of Several Variables
+![[Pasted image 20250106143044.png|1100]]
+* Commutativity and associativity.
+* The distributivity theorem.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
