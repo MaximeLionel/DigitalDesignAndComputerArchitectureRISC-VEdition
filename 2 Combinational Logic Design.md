@@ -207,3 +207,4 @@ $\overline{\overline{Y}}=\overline{\overline{A}\overline{B}+\overline{A}B}=(A+B)
 
 
 
+
