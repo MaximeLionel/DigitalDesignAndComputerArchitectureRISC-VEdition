@@ -224,7 +224,10 @@ We get that: $\overline{A}\overline{B}\overline{C} +A\overline{B}\overline{C} + 
 	2. Place inverters in adjacent columns to provide the complementary inputs if necessary. 
 	3. Draw rows of AND gates for each of the minterms. 
 	4. For each output, draw an OR gate connected to the minterms related to that output.
-
+* The table below shows an implementation of the simplified equation we found using Boolean algebra - $Y=\overline{BC}+A\overline{B}$
+	![[Pasted image 20250107154422.png|400]]
+* Reduce the number of gates even further (albeit by a single inverter) by taking advantage of **inverting gates**.
+	![[Pasted image 20250107154851.png|400]]
 
 
 
