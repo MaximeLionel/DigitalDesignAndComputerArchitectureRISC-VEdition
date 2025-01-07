@@ -194,10 +194,14 @@ Solution:
 	* An implicant is called a ==prime implicant== if it cannot be combined with any other implicants in the equation to form a new implicant with fewer literals. 
 	* The implicants in a minimal equation must all be prime implicants.
 
+## Example 2.6 EQUATION MINIMIZATION
+Minimize Equation 2.3: $\overline{A}\overline{B}\overline{C} +A\overline{B}\overline{C} + A\overline{B}C$.
 
-
-
-
+**Solution**:
+Idempotency theory: B + B = B
+We get that: $\overline{A}\overline{B}\overline{C} +A\overline{B}\overline{C} + A\overline{B}C=\overline{A}\overline{B}\overline{C} +A\overline{B}\overline{C}+A\overline{B}\overline{C} + A\overline{B}C$
+Combining theory: $B\cdot C+B\cdot \overline{C}=B$
+We get that: $\overline{A}\overline{B}\overline{C} +A\overline{B}\overline{C} + A\overline{B}C=\overline{A}\overline{B}\overline{C} +A\overline{B}\overline{C}+A\overline{B}\overline{C} + A\overline{B}C$
 
 
 
