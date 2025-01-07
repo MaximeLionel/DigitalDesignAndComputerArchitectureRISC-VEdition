@@ -208,7 +208,14 @@ We get that: $\overline{A}\overline{B}\overline{C} +A\overline{B}\overline{C} + 
 * A **schematic** (示意图) is a diagram of a digital circuit showing the elements and the wires that connect them.
 * Example - $Y =\overline{ABC} +  A\overline{BC} + A\overline{B}C$
 	![[Pasted image 20250107135637.png|550]]
-
+* Rules:
+	* Inputs are on the left (or top) side of a schematic.
+	* Outputs are on the right (or bottom) side of a schematic.
+	* Whenever possible, gates should flow from left to right.
+	* Straight wires are better to use than wires with multiple corners.
+	* Wires always connect at a T junction.
+	* A dot where wires cross indicates a connection between the wires.
+	* Wires crossing without a dot make no connection.
 
 
 
