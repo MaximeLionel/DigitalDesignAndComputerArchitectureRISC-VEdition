@@ -173,7 +173,17 @@ Figure below shows the truth table for a Boolean function Y and its complement Y
 
 **Solution**:
 $\overline{Y}=\overline{A}\overline{B}+\overline{A}B$
-$\overline{\overline{Y}}=\overline{\overline{A}\overline{B}+\overline{A}B}=(A+B)(A+\overline{B})=Y$
+$\overline{\overline{Y}}=\overline{\overline{A}\overline{B}+\overline{A}B}=(A+B)(A+\overline{B})=Y$'=
+
+## 2.3.4 The Truth Behind It All
+* In Boolean algebra, proofs of theorems with a finite number of variables are easy: just show that the theorem holds for all possible values of these variables. 
+	* This method is called ==perfect induction== (完全归纳法) and can be done with a truth table.
+
+## Example 2.5 PROVING THE CONSENSUS THEOREM USING PERFECT INDUCTION
+Prove the consensus theorem, T11, from Table below.
+![[Pasted image 20250107110936.png|860]]
+
+Solution:
 
 
 
