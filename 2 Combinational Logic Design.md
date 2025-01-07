@@ -241,15 +241,19 @@ Solution:
 Firstly, we write a truth table based on the requirements:
 ![[Pasted image 20250107172246.png|400]]
 Secondly, draft the equation based on the truth table:
-* $Y_3$ is TRUE whenever $A_3$ is asserted - $Y_3 = A_3$. Y2 is TRUE if A2 is asserted and A3 is not asserted, so 
-Y A A Y 2 3 2 1 = . is TRUE if A1 is asserted and neither of the higher-priority inputs 
-is asserted: Y A A A 1 3 2 1 = . And Y0 is TRUE whenever A0 and no other input is 
-asserted: Y A A A A 0 3 2 1 0 = .
+* $Y_3$ is TRUE whenever $A_3$ is asserted - $Y_3 = A_3$. 
+* $Y_2$ is TRUE if $A_2$ is asserted and $A_3$ is not asserted - $Y_2=\overline{A_3}A_2$.
+* $Y_1$ is TRUE if $A_1$ is asserted and neither $A_3$ or $A_2$ is asserted - $Y_1=\overline{A_3A_2}A_1$.
+* $Y_0$ is TRUE if $A_0$ is asserted and neither $A_3$ or $A_2$ or $A_1$ is asserted - $Y_1=\overline{A_3A_2A_1}A_0$.
+
+Thirdly, we draw the schematic below:
+![[Pasted image 20250107173401.png|300]]
 
 
+Also we can simplify the truth table bring in 'don't cares':
+![[Pasted image 20250107173526.png|450]]
 
-
-
+This function is called a **four-input priority circuit** (四输入优先级电路).
 
 
 
