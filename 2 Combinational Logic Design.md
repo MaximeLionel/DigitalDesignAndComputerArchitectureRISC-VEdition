@@ -204,7 +204,10 @@ We get that: $\overline{A}\overline{B}\overline{C} +A\overline{B}\overline{C} + 
 Combining theory: $B\cdot C+B\cdot \overline{C}=B$
 We get that: $\overline{A}\overline{B}\overline{C} +A\overline{B}\overline{C} + A\overline{B}C=\overline{A}\overline{B}\overline{C} +A\overline{B}\overline{C}+A\overline{B}\overline{C} + A\overline{B}C=\overline{BC}+A\overline{B}$
 
-
+# 2.4 FROM LOGIC TO GATES
+* A **schematic** (示意图) is a diagram of a digital circuit showing the elements and the wires that connect them.
+* Example - $Y =\overline{ABC} +  A\overline{BC} + A\overline{B}C$
+	![[Pasted image 20250107135637.png|550]]
 
 
 
