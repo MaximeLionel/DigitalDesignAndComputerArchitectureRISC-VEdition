@@ -214,8 +214,16 @@ We get that: $\overline{A}\overline{B}\overline{C} +A\overline{B}\overline{C} + 
 	* Whenever possible, gates should flow from left to right.
 	* Straight wires are better to use than wires with multiple corners.
 	* Wires always connect at a T junction.
+		![[Pasted image 20250107144010.png|250]]
 	* A dot where wires cross indicates a connection between the wires.
+		![[Pasted image 20250107144034.png|250]]
 	* Wires crossing without a dot make no connection.
+		![[Pasted image 20250107144058.png|250]]
+* Any Boolean equation in sum-of-products form can be drawn as a schematic in a systematic way, which is called a **programmable logic array (PLA)**:
+	1. Draw columns for the inputs. 
+	2. Place inverters in adjacent columns to provide the complementary inputs if necessary. 
+	3. Draw rows of AND gates for each of the minterms. 
+	4. For each output, draw an OR gate connected to the minterms related to that output.
 
 
 
