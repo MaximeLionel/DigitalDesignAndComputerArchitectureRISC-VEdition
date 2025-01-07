@@ -233,7 +233,7 @@ We get that: $\overline{A}\overline{B}\overline{C} +A\overline{B}\overline{C} + 
 ## Example 2.7 MULTIPLE-OUTPUT CIRCUITS
 The dean, the department chair, the teaching assistant, and the dorm social chair each use the auditorium from time to time. Unfortunately, they occasionally conflict, leading to disasters such as the one that occurred when the dean’s fundraising meeting with crusty trustees happened at the same time as the dorm’s BTB1 party. Alyssa P. Hacker has been called in to design a room reservation system.
 
-The system has four inputs, A3, …, A0, and four outputs, Y3, …, Y0. These signals can also be written as A3:0 and Y3:0. Each user asserts her input when she requests the auditorium for the next day. The system asserts at most one output, granting the auditorium to the highest priority user. The dean, who is paying for the system, demands highest priority (3). The department chair, teaching assistant, and dorm social chair have decreasing priority.
+The system has 4 inputs, $A_3$, …, $A_0$, and 4 outputs, $Y_3$, …, $Y_0$. These signals can also be written as $A_{3:0}$ and $Y_{3:0}$. Each user asserts her input when she requests the auditorium for the next day. The system asserts at most one output, granting the auditorium to the highest priority user. The dean, who is paying for the system, demands highest priority (3). The department chair, teaching assistant, and dorm social chair have decreasing priority.
 
 Write a truth table and Boolean equations for the system. Sketch a circuit that performs this function。
 
