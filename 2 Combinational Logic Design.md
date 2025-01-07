@@ -184,9 +184,15 @@ Prove the consensus theorem, T11, from Table below.
 ![[Pasted image 20250107110936.png|860]]
 
 Solution:
+![[Pasted image 20250107111806.png|500]]
 
 
-
+## 2.3.5 Simplifying Equations
+* The theorems of Boolean algebra help us simplify Boolean equations.
+* The basic principle of simplifying **sum-of-products** equations is to combine terms using the relationship $PA+P\overline{A}= P$.
+* We define an equation in sum-of-products form to be ==minimized== if it uses the fewest possible **implicants** (蕴含项).
+	* An implicant is called a ==prime implicant== if it cannot be combined with any other implicants in the equation to form a new implicant with fewer literals. 
+	* The implicants in a minimal equation must all be prime implicants.
 
 
 
