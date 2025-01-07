@@ -235,8 +235,16 @@ The dean, the department chair, the teaching assistant, and the dorm social chai
 
 The system has 4 inputs, $A_3$, …, $A_0$, and 4 outputs, $Y_3$, …, $Y_0$. These signals can also be written as $A_{3:0}$ and $Y_{3:0}$. Each user asserts her input when she requests the auditorium for the next day. The system asserts at most one output, granting the auditorium to the highest priority user. The dean, who is paying for the system, demands highest priority (3). The department chair, teaching assistant, and dorm social chair have decreasing priority.
 
-Write a truth table and Boolean equations for the system. Sketch a circuit that performs this function。
+Write a truth table and Boolean equations for the system. Sketch a circuit that performs this function.
 
+Solution:
+Firstly, we write a truth table based on the requirements:
+![[Pasted image 20250107172246.png|400]]
+Secondly, draft the equation based on the truth table:
+* $Y_3$ is TRUE whenever $A_3$ is asserted - $Y_3 = A_3$. Y2 is TRUE if A2 is asserted and A3 is not asserted, so 
+Y A A Y 2 3 2 1 = . is TRUE if A1 is asserted and neither of the higher-priority inputs 
+is asserted: Y A A A 1 3 2 1 = . And Y0 is TRUE whenever A0 and no other input is 
+asserted: Y A A A A 0 3 2 1 0 = .
 
 
 
