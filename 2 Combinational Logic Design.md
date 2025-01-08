@@ -261,6 +261,10 @@ This function is called a **four-input priority circuit** (四输入优先级电
 
 ## 2.5.1 Hardware Reduction
 * An N-input XOR produces a TRUE output when an odd number of inputs are TRUE.
+* Example - a 3-input XOR:
+	![[Pasted image 20250108092137.png|600]]
+	* From the truth table, we read off a Boolean equation in sum-of-products form: $Y = \overline{AB}C+\overline{A}B\overline{C}+A\overline{BC}+ABC$ 
+	* The 3-input XOR can be built out of a cascade of 2-input XORs: A ⊕ B ⊕ C = (A ⊕ B) ⊕ C
 
 
 
