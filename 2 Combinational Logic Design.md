@@ -280,8 +280,11 @@ This function is called a **four-input priority circuit** (四输入优先级电
 		* If the current gate has an input bubble, draw the preceding gate with an output bubble. 
 		* If the current gate does not have an input bubble, draw the preceding gate without an output bubble.
 * Example - bubble-pushed circuit.
-	![[Pasted image 20250108101856.png|450]]
-
+		![[Pasted image 20250108101856.png|450]]
+	a. Push the output bubble back to form an OR with inverted inputs.
+	b. Working to the left, the rightmost gate has an input bubble that cancels with the output bubble of the middle NAND gate, so no change is necessary.
+	c. The middle gate has no input bubble, so we transform the leftmost gate to have no output bubble.
+* Now, all of the bubbles in the circuit cancel except at the inputs, so the function can be read by inspection in terms of ANDs and ORs of true or complementary inputs: $Y =\overline{AB}C+\overline{D}$.
 
 
 
