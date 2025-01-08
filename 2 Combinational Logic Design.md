@@ -265,6 +265,9 @@ This function is called a **four-input priority circuit** (四输入优先级电
 	![[Pasted image 20250108092137.png|600]]
 	* From the truth table, we read off a Boolean equation in sum-of-products form: $Y = \overline{AB}C+\overline{A}B\overline{C}+A\overline{BC}+ABC$ 
 	* The 3-input XOR can be built out of a cascade of 2-input XORs: A ⊕ B ⊕ C = (A ⊕ B) ⊕ C
+		![[Pasted image 20250108093106.png|250]]
+* an 8-input XOR would require 128 8-input AND 
+gates and one 128-input OR gate for a two-level sum-of-products implementation.
 
 
 
