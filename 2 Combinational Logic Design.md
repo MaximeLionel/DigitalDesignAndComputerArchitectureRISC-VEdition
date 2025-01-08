@@ -266,14 +266,52 @@ This function is called a **four-input priority circuit** (四输入优先级电
 	* From the truth table, we read off a Boolean equation in sum-of-products form: $Y = \overline{AB}C+\overline{A}B\overline{C}+A\overline{BC}+ABC$ 
 	* The 3-input XOR can be built out of a cascade of 2-input XORs: A ⊕ B ⊕ C = (A ⊕ B) ⊕ C
 		![[Pasted image 20250108093106.png|250]]
-* an 8-input XOR would require 128 8-input AND 
-gates and one 128-input OR gate for a two-level sum-of-products implementation.
+* An 8-input XOR would require 128 ($2^{(8-1)}$) 8-input AND gates and one 128-input OR gate for a two-level sum-of-products implementation.
+	* A much better option is to use a tree of 2-input XOR gates.
+		![[Pasted image 20250108101211.png|300]]
 
+## 2.5.2 Bubble Pushing
+* Multilevel circuit using $NANDs$ and $NORs$:
+	![[Pasted image 20250108101716.png|400]]
+* Bubble pushing is a helpful way to redraw these circuits so that the bubbles cancel out and the function can be more easily determined.
+	* Begin at the output of the circuit and work toward the inputs.
+	* Push any bubbles on the final output back toward the inputs so that you can read an equation in terms of the output ($Y$) instead of the complement of the output ($\overline{Y}$).
+	* Working backward, draw each gate in a form so that bubbles cancel. 
+		* If the current gate has an input bubble, draw the preceding gate with an output bubble. 
+		* If the current gate does not have an input bubble, draw the preceding gate without an output bubble.
+* Example - bubble-pushed circuit.
+		![[Pasted image 20250108101856.png|450]]
+	a. Push the output bubble back to form an OR with inverted inputs.
+	b. Working to the left, the rightmost gate has an input bubble that cancels with the output bubble of the middle NAND gate, so no change is necessary.
+	c. The middle gate has no input bubble, so we transform the leftmost gate to have no output bubble.
+* Now, all of the bubbles in the circuit cancel except at the inputs, so the function can be read by inspection in terms of ANDs and ORs of true or complementary inputs: $Y =\overline{AB}C+\overline{D}$.
 
+## Example 2.8 BUBBLE PUSHING FOR CMOS LOGIC
+Most designers think in terms of AND and OR gates, but suppose you would like to implement the circuit in figure below in CMOS logic, which favors NAND and NOR gates. Use bubble pushing to convert the circuit to NANDs, NORs, and inverters.
+![[Pasted image 20250108111336.png|300]]
 
+**Solution**:
+![[Pasted image 20250108111456.png|900]]
 
+# 2.6 X’S AND Z’S, OH MY
+* Boolean algebra is limited to 0’s and 1’s. However, real circuits can also have illegal and floating values, represented symbolically by X and Z.
+## 2.6.1 Illegal Value: X
+* The symbol X indicates that the circuit node has an **unknown or illegal** value.
+	* This commonly happens if it is being driven to both 0 and 1 at the same time.
+* Example:
+	![[Pasted image 20250108144139.png|200]]
 
+	* Node Y is driven both HIGH and LOW, which is called **contention**.
+* X values are also sometimes used by circuit simulators to indicate an **uninitialized value**.
+* To clarify:
+	* When X appears in a truth table, it indicates that the value of the variable in the truth table is unimportant (can be either 0 or 1, don't cares). 
+	* When X appears in a circuit, it means that the circuit node has an unknown or illegal value.
 
+## 2.6.2 Floating Value: Z
+* The symbol Z indicates that a node is being driven **neither HIGH nor LOW**.
+	* The node is said to be floating, high impedance, or high Z.
+* A floating node might be 0, might be 1, or might be at some voltage in between, depending on the history of the system. 
+* One common way to produce a floating node is to forget to connect a voltage to a circuit input or to assume that an unconnected input is the same as an input with the value of 0.
 
 
 
