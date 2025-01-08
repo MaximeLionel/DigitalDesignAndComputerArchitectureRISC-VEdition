@@ -298,8 +298,11 @@ Most designers think in terms of AND and OR gates, but suppose you would like to
 ## 2.6.1 Illegal Value: X
 * The symbol X indicates that the circuit node has an **unknown or illegal** value.
 	* This commonly happens if it is being driven to both 0 and 1 at the same time.
+* Example:
+	![[Pasted image 20250108144139.png|200]]
 
-
+	* Node Y is driven both HIGH and LOW, which is called **contention**.
+* X values are also sometimes used by circuit simulators to indicate an **uninitialized value**.
 
 
 
