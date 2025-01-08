@@ -294,9 +294,10 @@ Most designers think in terms of AND and OR gates, but suppose you would like to
 ![[Pasted image 20250108111456.png|900]]
 
 # 2.6 X’S AND Z’S, OH MY
-
-
-
+* Boolean algebra is limited to 0’s and 1’s. However, real circuits can also have illegal and floating values, represented symbolically by X and Z.
+## 2.6.1 Illegal Value: X
+* The symbol X indicates that the circuit node has an **unknown or illegal** value.
+	* This commonly happens if it is being driven to both 0 and 1 at the same time.
 
 
 
