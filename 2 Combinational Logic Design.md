@@ -303,6 +303,13 @@ Most designers think in terms of AND and OR gates, but suppose you would like to
 
 	* Node Y is driven both HIGH and LOW, which is called **contention**.
 * X values are also sometimes used by circuit simulators to indicate an **uninitialized value**.
+* To clarify:
+	* When X appears in a truth table, it indicates that the value of the variable in the truth table is unimportant (can be either 0 or 1, don't cares). 
+	* When X appears in a circuit, it means that the circuit node has an unknown or illegal value.
+
+## 2.6.2 Floating Value: Z
+* The symbol Z indicates that a node is being driven **neither HIGH nor LOW**.
+	* The node is said to be floating, high impedance, or high Z.
 
 
 
