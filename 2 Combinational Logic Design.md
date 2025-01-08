@@ -274,13 +274,13 @@ This function is called a **four-input priority circuit** (四输入优先级电
 * Multilevel circuit using $NANDs$ and $NORs$:
 	![[Pasted image 20250108101716.png|400]]
 * Bubble pushing is a helpful way to redraw these circuits so that the bubbles cancel out and the function can be more easily determined.
-	![[Pasted image 20250108101856.png|450]]
 	* Begin at the output of the circuit and work toward the inputs.
-	* Push any bubbles on the final output back toward the inputs so that you can read an equation in terms of the output (e.g., Y) instead of 
-the complement of the output ( ) Y .
-• Working backward, draw each gate in a form so that bubbles cancel. If the current gate has an input bubble, draw the preceding gate 
-with an output bubble. If the current gate does not have an input 
-bubble, draw the preceding gate without an output bubble.
+	* Push any bubbles on the final output back toward the inputs so that you can read an equation in terms of the output ($Y$) instead of the complement of the output ($\overline{Y}$).
+	* Working backward, draw each gate in a form so that bubbles cancel. 
+		* If the current gate has an input bubble, draw the preceding gate with an output bubble. 
+		* If the current gate does not have an input bubble, draw the preceding gate without an output bubble.
+* Example - bubble-pushed circuit.
+	![[Pasted image 20250108101856.png|450]]
 
 
 
