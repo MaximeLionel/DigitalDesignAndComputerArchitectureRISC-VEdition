@@ -92,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "3eb1cd6ce7f914fa",
@@ -180,6 +181,8 @@
   },
   "active": "826046b6ef5224fd",
   "lastOpenFiles": [
+    "attachments/Pasted image 20250108111456.png",
+    "attachments/Pasted image 20250108111336.png",
     "attachments/Pasted image 20250108101856.png",
     "attachments/Pasted image 20250108101716.png",
     "attachments/Pasted image 20250108101211.png",
@@ -189,8 +192,6 @@
     "attachments/Pasted image 20250107173401.png",
     "attachments/Pasted image 20250107172246.png",
     "attachments/Pasted image 20250107154851.png",
-    "attachments/Pasted image 20250107154422.png",
-    "attachments/Pasted image 20250107144058.png",
     "for ubuntu server.md",
     "2 Combinational Logic Design.md",
     "1 From Zero to One.md",

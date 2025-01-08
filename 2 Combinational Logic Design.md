@@ -286,6 +286,18 @@ This function is called a **four-input priority circuit** (四输入优先级电
 	c. The middle gate has no input bubble, so we transform the leftmost gate to have no output bubble.
 * Now, all of the bubbles in the circuit cancel except at the inputs, so the function can be read by inspection in terms of ANDs and ORs of true or complementary inputs: $Y =\overline{AB}C+\overline{D}$.
 
+## Example 2.8 BUBBLE PUSHING FOR CMOS LOGIC
+Most designers think in terms of AND and OR gates, but suppose you would like to implement the circuit in figure below in CMOS logic, which favors NAND and NOR gates. Use bubble pushing to convert the circuit to NANDs, NORs, and inverters.
+![[Pasted image 20250108111336.png|300]]
+
+**Solution**:
+![[Pasted image 20250108111456.png|900]]
+
+# 2.6 X’S AND Z’S, OH MY
+
+
+
+
 
 
 
