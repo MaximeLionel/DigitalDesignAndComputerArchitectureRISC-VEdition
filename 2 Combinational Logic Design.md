@@ -255,6 +255,13 @@ Also we can simplify the truth table bring in 'don't cares':
 
 This function is called a **four-input priority circuit** (四输入优先级电路).
 
+# 2.5 MULTILEVEL COMBINATIONAL LOGIC
+* Logic in sum-of-products form is called **two-level logic** because it consists of literals connected to a level of AND gates connected to a level of OR gates.
+* **Bubble pushing** is especially helpful in analyzing and designing multilevel circuits.
+
+## 2.5.1 Hardware Reduction
+* An N-input XOR produces a TRUE output when an odd number of inputs are TRUE.
+
 
 
 
