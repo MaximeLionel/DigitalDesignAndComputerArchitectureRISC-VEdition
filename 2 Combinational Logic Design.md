@@ -311,7 +311,7 @@ Most designers think in terms of AND and OR gates, but suppose you would like to
 * The symbol Z indicates that a node is being driven **neither HIGH nor LOW**.
 	* The node is said to be floating, high impedance, or high Z.
 * A floating node might be 0, might be 1, or might be at some voltage in between, depending on the history of the system. 
-* One common way to produce a floating node is to forget to connect a voltage to a circuit input or to assume that an unconnected input is the same as an input with the value of 0.
+* One common way to produce a floating node is to forget to connect a voltage to a circuit input or to assume that an unconnected input is the same as an input with the value of 0.
 
 
 
