@@ -345,8 +345,11 @@ Most designers think in terms of AND and OR gates, but suppose you would like to
 * For each circle, we write the corresponding implicant.
 * Variables whose true and complementary forms are both in the circle are excluded from the implicant - $\overline{ABC}+\overline{AB}C=\overline{AB}$.
 	* The variable C has both its true form (1) and its complementary form (0) in the circle.
+	* In other words, Y is TRUE when A = B = 0, independent of C.
+	* So, the implicant is $\overline{AB}$.
 
-
+## 2.7.2 Logic Minimization with K-Maps
+* For Logic Minimization with K-Maps, each circle should be as large as possible. Then, read off the implicants that were circled.
 
 
 
