@@ -336,6 +336,8 @@ Most designers think in terms of AND and OR gates, but suppose you would like to
 	* Each square, or minterm, differs from an adjacent square by a change in a single variable. 
 	* The adjacent squares share all the same literals except one, which appears in true form in one square and in complementary form in the other.
 		* For example, the squares representing the minterms $\overline{ABC}$ and $\overline{AB}C$ are adjacent and differ only in the variable C.
+	* A and B combinations in the top row are in a peculiar order: ==00, 01, 11, 10==. This order is called ==a Gray code==.
+	* The K-map also “wraps around.” (环绕的) The squares on the far right are effectively adjacent to the squares on the far left in that they differ only in one variable, A.
 
 
 
