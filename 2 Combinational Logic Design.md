@@ -339,6 +339,9 @@ Most designers think in terms of AND and OR gates, but suppose you would like to
 	* A and B combinations in the top row are in a peculiar order: ==00, 01, 11, 10==. This order is called ==a Gray code==.
 	* The K-map also “wraps around.” (环绕的) The squares on the far right are effectively adjacent to the squares on the far left in that they differ only in one variable, A.
 
+## 2.7.1 Circular Thinking
+
+
 
 
 
