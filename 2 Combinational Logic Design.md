@@ -321,7 +321,15 @@ Most designers think in terms of AND and OR gates, but suppose you would like to
 		![[Pasted image 20250109092931.png|200]]
 	* Active low enable - When the enable is LOW (0), the buffer is enabled. 
 		![[Pasted image 20250109093008.png|200]]
+* Tristate buffers are commonly used on busses that connect multiple chips.
+	* Example - 
+		![[Pasted image 20250109094111.png|450]]
+		* A microprocessor, a video controller, and an Ethernet controller might all need to communicate with the memory system in a personal computer. 
+		* Each chip can connect to a shared memory bus using tristate buffers.
+		* Only one chip at a time is allowed to assert its enable signal to drive a value onto the bus.
 
+# 2.7 KARNAUGH MAPS
+* Karnaugh maps (K-maps) are a graphical method for simplifying Boolean equations.
 
 
 
