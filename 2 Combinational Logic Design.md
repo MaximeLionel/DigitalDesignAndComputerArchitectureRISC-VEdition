@@ -330,6 +330,9 @@ Most designers think in terms of AND and OR gates, but suppose you would like to
 
 # 2.7 KARNAUGH MAPS
 * Karnaugh maps (K-maps) are a graphical method for simplifying Boolean equations.
+* K-maps work well for problems with up to 4 variables.
+* The figure below shows the truth table and K-map for a 3-input function.
+	![[Pasted image 20250109095156.png|800]]
 
 
 
