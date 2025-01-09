@@ -312,6 +312,11 @@ Most designers think in terms of AND and OR gates, but suppose you would like to
 	* The node is said to be floating, high impedance, or high Z.
 * A floating node might be 0, might be 1, or might be at some voltage in between, depending on the history of the system. 
 * One common way to produce a floating node is to forget to connect a voltage to a circuit input or to assume that an unconnected input is the same as an input with the value of 0.
+* Tristate buffer:
+	* 3 output states - input A, output Y, and enable E.
+	* 3 possible output states - HIGH (1), LOW (0), and floating (Z).
+	* When the enable is TRUE, the tristate buffer acts as a simple buffer, transferring the input value to the output. 
+	* When the enable is FALSE, the output is allowed to float (Z).
 
 
 
