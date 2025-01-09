@@ -340,6 +340,19 @@ Most designers think in terms of AND and OR gates, but suppose you would like to
 	* The K-map also “wraps around.” (环绕的) The squares on the far right are effectively adjacent to the squares on the far left in that they differ only in one variable, A.
 
 ## 2.7.1 Circular Thinking
+* K-maps help us do this simplification graphically by circling 1’s in adjacent squares.
+	![[Pasted image 20250109165554.png|300]]
+* For each circle, we write the corresponding implicant.
+* Variables whose true and complementary forms are both in the circle are excluded from the implicant - $\overline{ABC}+\overline{AB}C=\overline{AB}$.
+	* The variable C has both its true form (1) and its complementary form (0) in the circle.
+
+
+
+
+
+
+
+
 
 
 
