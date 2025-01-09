@@ -333,6 +333,9 @@ Most designers think in terms of AND and OR gates, but suppose you would like to
 * K-maps work well for problems with up to 4 variables.
 * The figure below shows the truth table and K-map for a 3-input function.
 	![[Pasted image 20250109095156.png|800]]
+	* Each square, or minterm, differs from an adjacent square by a change in a single variable. 
+	* The adjacent squares share all the same literals except one, which appears in true form in one square and in complementary form in the other.
+		* For example, the squares representing the minterms $\overline{ABC}$ and $\overline{AB}C$ are adjacent and differ only in the variable C.
 
 
 
