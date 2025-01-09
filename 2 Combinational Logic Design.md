@@ -350,6 +350,7 @@ Most designers think in terms of AND and OR gates, but suppose you would like to
 
 ## 2.7.2 Logic Minimization with K-Maps
 * For Logic Minimization with K-Maps, each circle should be as large as possible. Then, read off the implicants that were circled.
+* Each circle on the K-map represents an implicant. The largest possible circles are prime implicants.
 
 
 
