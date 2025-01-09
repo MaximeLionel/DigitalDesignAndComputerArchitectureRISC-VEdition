@@ -317,6 +317,10 @@ Most designers think in terms of AND and OR gates, but suppose you would like to
 	* 3 possible output states - HIGH (1), LOW (0), and floating (Z).
 	* When the enable is TRUE, the tristate buffer acts as a simple buffer, transferring the input value to the output. 
 	* When the enable is FALSE, the output is allowed to float (Z).
+	* Active high enable - when the enable is HIGH (1), the buffer is enabled.
+		![[Pasted image 20250109092931.png|200]]
+	* Active low enable - When the enable is LOW (0), the buffer is enabled. 
+		![[Pasted image 20250109093008.png|200]]
 
 
 
