@@ -365,7 +365,10 @@ Suppose we have the function Y = F(A, B, C) with the K-map shown in Figure bel
 
 
 **Solution**:
+![[Pasted image 20250110105516.png|400]]
 
+## Example 2.10 SEVEN-SEGMENT DISPLAY DECODER
+A seven-segment display decoder takes a 4-bit data input $D_{3:0}$ and produces seven outputs to control light-emitting diodes to display a digit from 0 to 9. The seven outputs are often called segments a through g, or $S_a$–$S_g$, as defined in Figure 2.47. The digits are shown in Figure 2.48. Write a truth table for the outputs, and use K-maps to find Boolean equations for outputs $S_a$ and $S_b$. Assume that illegal input values (10–15) produce a blank readout.
 
 
 
