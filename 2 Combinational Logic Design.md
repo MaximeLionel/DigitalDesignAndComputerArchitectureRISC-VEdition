@@ -379,7 +379,17 @@ Truth table:
 K-map of $S_a$:
 ![[Pasted image 20250110110741.png|500]]
 
+## 2.7.3 Don’t Cares
+* “don’t care” entries for truth table inputs are to:
+	* reduce the number of rows in the table when some variables do not affect the output.
+	* be indicated by the symbol X, which means that the entry can be either 0 or 1.
+* In a K-map, X’s allow for even more logic minimization. 
+	* If Xs help cover the 1’s with fewer or larger circles, they can be circled.
+	* If Xs are not helpful, they do not have to be circled.
 
+## Example 2.11 SEVEN-SEGMENT DISPLAY DECODER WITH DON’T CARES
+Repeat Example 2.10 if we don’t care about the output values for illegal input 
+values of 10 to 15.
 
 
 
