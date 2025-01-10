@@ -388,10 +388,13 @@ K-map of $S_a$:
 	* If Xs are not helpful, they do not have to be circled.
 
 ## Example 2.11 SEVEN-SEGMENT DISPLAY DECODER WITH DON’T CARES
-Repeat Example 2.10 if we don’t care about the output values for illegal input 
-values of 10 to 15.
+Repeat Example 2.10 if we don’t care about the output values for illegal input values of 10 to 15.
 
+**Solution**:
+![[Pasted image 20250110112445.png|400]]
 
+# 2.8
+* a full adder:
 
 
 
