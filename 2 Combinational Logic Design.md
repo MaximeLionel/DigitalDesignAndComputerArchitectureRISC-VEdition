@@ -357,8 +357,7 @@ Most designers think in terms of AND and OR gates, but suppose you would like to
 	* Each circle must span a rectangular block that is a power of 2 (i.e., 1, 2, or 4) squares in each direction.
 	* Each circle should be as large as possible.
 	* A circle may wrap around the edges of the K-map.
-▸ A 1 in a K-map may be circled multiple times if doing so allows 
-fewer circles to be used.
+	* A 1 in a K-map may be circled multiple times if doing so allows fewer circles to be used.
 
 
 
