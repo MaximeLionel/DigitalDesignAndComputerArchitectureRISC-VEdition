@@ -393,9 +393,13 @@ Repeat Example 2.10 if we don’t care about the output values for illegal input
 **Solution**:
 ![[Pasted image 20250110112445.png|400]]
 
-# 2.8
+# 2.8 COMBINATIONAL BUILDING BLOCKS
 * a full adder:
-
-
-
-
+![[Pasted image 20250110113244.png|300]]
+* priority circuit:
+	![[Pasted image 20250110113452.png|500]]
+	![[Pasted image 20250110113525.png|280]]
+	![[Pasted image 20250110113544.png|500]]
+* seven-segment display decoders:
+	![[Pasted image 20250110110248.png|300]]
+* 2 more commonly used building blocks: **multiplexers** and **decoders**.
