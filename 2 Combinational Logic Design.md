@@ -360,8 +360,11 @@ Most designers think in terms of AND and OR gates, but suppose you would like to
 	* A 1 in a K-map may be circled multiple times if doing so allows fewer circles to be used.
 
 ## Example 2.9 MINIMIZATION OF A THREE-VARIABLE FUNCTION USING A K-MAP
+Suppose we have the function Y = F(A, B, C) with the K-map shown in Figure below. Minimize the equation using the K-map.
+![[Pasted image 20250110102259.png|400]]
 
 
+**Solution**:
 
 
 
