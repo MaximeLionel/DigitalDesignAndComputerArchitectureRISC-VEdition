@@ -405,7 +405,10 @@ Repeat Example 2.10 if we don’t care about the output values for illegal input
 * 2 more commonly used building blocks: **multiplexers** and **decoders**.
 
 ## 2.8.1 Multiplexers
-* Multiplexers （mux） are among the most commonly used combinational circuits. They choose an output from among several possible inputs, based on the value of a select signal.
+* Multiplexers (mux) - choose an output from among several possible inputs, based on the value of a select signal, which is among the most commonly used combinational circuits.
+
+### 2:1 Multiplexer
+![[Pasted image 20250113142251.png|250]]
 
 
 
