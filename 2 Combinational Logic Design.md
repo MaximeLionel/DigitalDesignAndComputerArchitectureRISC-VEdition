@@ -425,10 +425,17 @@ Repeat Example 2.10 if we don’t care about the output values for illegal input
 * A 4:1 multiplexer has 4 data inputs and 1 output.
 	![[Pasted image 20250113144150.png|180]]
 	* 2 select signals are needed to choose among the 4 data inputs.
-	* The 4:1 multiplexer can be built using sum-of-products logic, tristates, or multiple 2:1 multiplexers
+	* The 4:1 multiplexer can be built using sum-of-products logic, tristates, or multiple 2:1 multiplexers.
+		![[Pasted image 20250113144747.png|800]]
+* In general, an N:1 multiplexer needs $log_2N$ select lines.
 
-
-
+### Multiplexer Logic
+* Multiplexers can be used as **lookup tables** to perform logic functions.
+* 4:1 multiplexer implementation of 2-input $AND$ function:
+	![[Pasted image 20250113150802.png|200]]
+	* The inputs, A and B, serve as select lines. 
+	* The multiplexer data inputs are connected to 0 or 1, according to the corresponding row of the truth table.
+	* In general, a $2^N$-input multiplexer can be programmed to perform any N-input logic function by applying 0’s and 1’s to the appropriate data inputs.
 
 
 
