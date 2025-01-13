@@ -409,10 +409,14 @@ Repeat Example 2.10 if we don’t care about the output values for illegal input
 
 ### 2:1 Multiplexer
 ![[Pasted image 20250113142251.png|250]]
-
-
-
-
+* 2 data inputs D0 and D1, 1 select input S, and 1 output Y.
+	* S is also called a control signal.
+	* if S = 0, Y = $D_0$, and if S = 1, Y = $D_1$.
+* A 2:1 multiplexer can be built from **sum-of-products** logic:
+	![[Pasted image 20250113143237.png|350]]
+	* Equation: $Y=D_0\overline{S}+D_1S$
+* A 2:1 multiplexer can be built from **tristate buffers** (三态缓冲器) logic:
+	![[Pasted image 20250113143642.png|200]]
 
 
 
