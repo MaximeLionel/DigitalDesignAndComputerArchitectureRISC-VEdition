@@ -417,6 +417,15 @@ Repeat Example 2.10 if we don’t care about the output values for illegal input
 	* Equation: $Y=D_0\overline{S}+D_1S$
 * A 2:1 multiplexer can be built from **tristate buffers** (三态缓冲器) logic:
 	![[Pasted image 20250113143642.png|200]]
+	* The tristate enables are arranged such that exactly one tristate buffer is active at all times. 
+	* When S = 0, tristate T0 is enabled, allowing D0 to flow to Y. 
+	* When S = 1, tristate T1 is enabled, allowing D1 to flow to Y.
+
+### Wider Multiplexers
+* A 4:1 multiplexer has 4 data inputs and 1 output.
+	![[Pasted image 20250113144150.png|180]]
+	* 2 select signals are needed to choose among the 4 data inputs.
+	* The 4:1 multiplexer can be built using sum-of-products logic, tristates, or multiple 2:1 multiplexers
 
 
 
