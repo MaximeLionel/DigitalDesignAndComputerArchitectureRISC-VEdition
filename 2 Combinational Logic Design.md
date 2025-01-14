@@ -440,8 +440,22 @@ Repeat Example 2.10 if we don’t care about the output values for illegal input
 	* Example:
 		![[Pasted image 20250114223657.png|600]]
 ## Example 2.12 LOGIC WITH MULTIPLEXERS
-Alyssa P. Hacker needs to implement the function Y A = + B BC ABC + to finish her senior project, but when she looks in her lab kit, the only part she has left 
-is an 8:1 multiplexer. How does she implement the function?
+Alyssa P. Hacker needs to implement the function $Y =A\overline{B} + \overline{BC}+ \overline{A}BC$ to finish her senior project, but when she looks in her lab kit, the only part she has left is an 8:1 multiplexer. How does she implement the function?
+
+**Solution**:
+Truth Table:
+
+|  A  |  B  |  C  |  Y  |
+| :-: | :-: | :-: | :-: |
+|  0  |  0  |  0  |  1  |
+|  0  |  0  |  1  |  0  |
+|  0  |  1  |  0  |  0  |
+|  0  |  1  |  1  |  1  |
+|  1  |  0  |  0  |  1  |
+|  1  |  0  |  1  |  1  |
+|  1  |  1  |  0  |  0  |
+|  1  |  1  |  1  |  0  |
+
 
 
 
