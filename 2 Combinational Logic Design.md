@@ -436,9 +436,7 @@ Repeat Example 2.10 if we don’t care about the output values for illegal input
 	* The inputs, A and B, serve as select lines. 
 	* The multiplexer data inputs are connected to 0 or 1, according to the corresponding row of the truth table.
 	* In general, a $2^N$-input multiplexer can be programmed to perform any N-input logic function by applying 0’s and 1’s to the appropriate data inputs.
-* With a little cleverness, we can cut the multiplexer size in half, using only a $2^{N–1}$-input multiplexer to perform any $N$-input logic function. 
-The strategy is to provide one of the literals, as well as 0’s and 1’s, to the 
-multiplexer data inputs.
+* With a little cleverness, we can cut the multiplexer size in half, using only a $2^{N–1}$-input multiplexer to perform any $N$-input logic function. The strategy is to provide one of the literals, as well as 0’s and 1’s, to the multiplexer data inputs.
 
 
 
