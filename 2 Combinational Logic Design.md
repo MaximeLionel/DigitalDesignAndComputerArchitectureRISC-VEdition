@@ -461,6 +461,9 @@ Implementation of 8:1 multiplexer:
 ## Example 2.13 LOGIC WITH MULTIPLEXERS, REPRISED
 Alyssa turns on her circuit one more time before the final presentation and blows up the 8:1 multiplexer. (She accidently powered it with 20V instead of 5V after not sleeping all night.) She begs her friends for spare parts and they give her a 4:1 multiplexer and an inverter. Can she build her circuit with only these parts?
 
+**Solution**:
+
+
 
 
 
