@@ -470,10 +470,10 @@ We need to optimize the truth table based on the new requirements:
 |  0  |  0  |  1  |  0  | $\overline{C}$ |
 |  0  |  1  |  0  |  0  |      $C$       |
 |  0  |  1  |  1  |  1  |      $C$       |
-|  1  |  0  |  0  |  1  | $\overline{C}$ |
-|  1  |  0  |  1  |  1  |      $C$       |
-|  1  |  1  |  0  |  0  |      $C$       |
-|  1  |  1  |  1  |  0  | $\overline{C}$ |
+|  1  |  0  |  0  |  1  |       1        |
+|  1  |  0  |  1  |  1  |       1        |
+|  1  |  1  |  0  |  0  |       0        |
+|  1  |  1  |  1  |  0  |       0        |
 So we get the new truth table:
 
 |  A  |  B  |      Y(C)      |
@@ -484,7 +484,8 @@ So we get the new truth table:
 |  1  |  1  |       0        |
 
 Implementation based on 4:1 multiplexer and an inverter:
-
+![[Pasted image 20250115163244.png|500]]
+![[Pasted image 20250115163309.png|300]]
 
 
 
