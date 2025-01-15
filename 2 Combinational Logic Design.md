@@ -488,7 +488,7 @@ Implementation based on 4:1 multiplexer and an inverter:
 ![[Pasted image 20250115163309.png|300]]
 
 ## 2.8.2 Decoders
-
+* A decoder has $N$ inputs and $2^N$ outputs.
 
 
 
