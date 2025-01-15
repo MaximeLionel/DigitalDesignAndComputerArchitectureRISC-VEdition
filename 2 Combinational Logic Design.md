@@ -483,8 +483,6 @@ So we get the new truth table:
 |  1  |  0  |       1        |
 |  1  |  1  |       0        |
 
-
-
 Implementation based on 4:1 multiplexer and an inverter:
 
 
