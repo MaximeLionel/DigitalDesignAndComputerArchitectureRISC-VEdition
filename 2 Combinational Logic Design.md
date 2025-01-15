@@ -488,7 +488,10 @@ Implementation based on 4:1 multiplexer and an inverter:
 ![[Pasted image 20250115163309.png|300]]
 
 ## 2.8.2 Decoders
-* A decoder has $N$ inputs and $2^N$ outputs.
+* A decoder has $N$ inputs and $2^N$ outputs. It asserts exactly one of its outputs depending on the input combination.
+	* The outputs are called **one-hot**, because exactly one is “hot” (HIGH) at a given time.
+* Example of 2:4 decoder:
+	![[Pasted image 20250115173014.png|300]]
 
 
 
