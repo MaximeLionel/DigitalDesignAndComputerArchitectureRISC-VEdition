@@ -462,9 +462,22 @@ Implementation of 8:1 multiplexer:
 Alyssa turns on her circuit one more time before the final presentation and blows up the 8:1 multiplexer. (She accidently powered it with 20V instead of 5V after not sleeping all night.) She begs her friends for spare parts and they give her a 4:1 multiplexer and an inverter. Can she build her circuit with only these parts?
 
 **Solution**:
+We need to optimize the truth table based on the new requirements:
+
+|  A  |  B  |  C  |  Y  |      Y(C)      |
+| :-: | :-: | :-: | :-: | :------------: |
+|  0  |  0  |  0  |  1  | $\overline{C}$ |
+|  0  |  0  |  1  |  0  | $\overline{C}$ |
+|  0  |  1  |  0  |  0  |      $C$       |
+|  0  |  1  |  1  |  1  |      $C$       |
+|  1  |  0  |  0  |  1  | $\overline{C}$ |
+|  1  |  0  |  1  |  1  |      $C$       |
+|  1  |  1  |  0  |  0  |      $C$       |
+|  1  |  1  |  1  |  0  | $\overline{C}$ |
+So we get the new truth ta
 
 
-
+Implementation based on 4:1 multiplexer and an inverter:
 
 
 
