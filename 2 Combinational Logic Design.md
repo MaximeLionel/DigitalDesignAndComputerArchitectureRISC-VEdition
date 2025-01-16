@@ -512,4 +512,12 @@ Implement a 2:4 decoder with AND and NOT gates.
 * An output takes time to change in response to an input change.
 * Example - the delay between an input change and the subsequent output change for a buffer.
 	![[Pasted image 20250116102942.png|400]]
+	* The figure is called a **timing diagram** (时序图); it portrays the **transient response** (瞬态响应) of the buffer circuit when an input changes.
+		* Rising edge - transition from LOW to HIGH.
+		* Falling edge - transition from HIGH to LOW.
+	* The rising edge of $Y$ is caused by the rising edge of $A$. 
+	* We measure delay from the 50% point of the input signal, A, to the 50% point of the output signal, Y.
+
+## 2.9.1 Propagation and Contamination Delay (传播延迟和传播污染)
+
 
