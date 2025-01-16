@@ -492,10 +492,17 @@ Implementation based on 4:1 multiplexer and an inverter:
 	* The outputs are called **one-hot**, because exactly one is “hot” (HIGH) at a given time.
 * Example of 2:4 decoder:
 	![[Pasted image 20250115173014.png|300]]
+### Decode Logic
+* Decoders can be combined with OR gates to build logic functions.
+
+
+
 ## Example 2.14 DECODER IMPLEMENTATION
 Implement a 2:4 decoder with AND and NOT gates.
 
-
+**Solution**:
+![[Pasted image 20250116100218.png|450]]
+![[Pasted image 20250116100242.png|300]]
 
 
 
