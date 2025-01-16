@@ -497,7 +497,8 @@ Implementation based on 4:1 multiplexer and an inverter:
 * Example of 2-input XNOR function using a 2:4 decoder and a single OR gate:
 	![[Pasted image 20250116101522.png|300]]
 	$Y = \overline{AB}+ AB= \overline{A\bigoplus B}$
-
+* When using decoders to build logic, it is easiest to express functions as a truth table or in canonical sum-of-products form. 
+	* An $N$-input function with $M$ 1’s in the truth table can be built with an $N:2^N$ decoder and an $M$-input $OR$ gate attached to all of the minterms containing 1’s in the truth table.
 
 ## Example 2.14 DECODER IMPLEMENTATION
 Implement a 2:4 decoder with AND and NOT gates.
@@ -506,6 +507,9 @@ Implement a 2:4 decoder with AND and NOT gates.
 ![[Pasted image 20250116100218.png|450]]
 ![[Pasted image 20250116100242.png|300]]
 
-
-
+# 2.9 TIMING
+* 1 of the most challenging issues in circuit design is timing: making a circuit run fast.
+* An output takes time to change in response to an input change.
+* Example - the delay between an input change and the subsequent output change for a buffer.
+	![[Pasted image 20250116102942.png|400]]
 
