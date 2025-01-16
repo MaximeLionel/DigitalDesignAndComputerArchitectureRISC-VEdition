@@ -519,5 +519,9 @@ Implement a 2:4 decoder with AND and NOT gates.
 	* We measure delay from the 50% point of the input signal, A, to the 50% point of the output signal, Y.
 
 ## 2.9.1 Propagation and Contamination Delay (传播延迟和传播污染)
-
+* Combinational logic is characterized by its **propagation delay** and **contamination delay**.
+	* The propagation delay $t_{pd}$ is the maximum time from 
+when any input changes until the output or outputs reach their final 
+value. The contamination delay tcd is the minimum time from when any 
+input changes until any output starts to change its value.
 
