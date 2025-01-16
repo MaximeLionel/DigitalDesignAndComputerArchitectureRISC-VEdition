@@ -494,7 +494,9 @@ Implementation based on 4:1 multiplexer and an inverter:
 	![[Pasted image 20250115173014.png|300]]
 ### Decode Logic
 * Decoders can be combined with OR gates to build logic functions.
-
+* Example of 2-input XNOR function using a 2:4 decoder and a single OR gate:
+	![[Pasted image 20250116101522.png|300]]
+	$Y = \overline{AB}+ AB= \overline{A\bigoplus B}$
 
 
 ## Example 2.14 DECODER IMPLEMENTATION
